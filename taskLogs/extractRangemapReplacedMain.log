@@ -1,0 +1,108 @@
+Symbol range map extraction starting
+Processing 27 files
+startProcessing "com\Cmonster03\OreMod\OreMod.java" md5: 3f0ca673c60f6e42621f590581d58ba5
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\OreMod.java"
+
+startProcessing "com\Cmonster03\OreMod\Reference.java" md5: a81111c218941fc3a20b1fae9e1cc9df
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\Reference.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_block.java" md5: a59172ee6de45543640db89e999439a6
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_block.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_ore.java" md5: 167fe79b7e20ac44ee08cfb6ff6a9cbe
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_ore.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockOpal_ore.java" md5: 493ff3fcde3ed0584c8e8f7559217363
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\blocks\BlockOpal_ore.java"
+
+startProcessing "com\Cmonster03\OreMod\client\gui\GuiHandler.java" md5: bdde6b8fe16516fb4576332c87152d14
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\client\gui\GuiHandler.java"
+
+startProcessing "com\Cmonster03\OreMod\creativetabs\TabElements.java" md5: a030bbf5f14847880723ca5ef358b49f
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\creativetabs\TabElements.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\ClientProxy.java" md5: 20c3d30c3797b0ab9db42a0dc9fa7d72
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\proxy\ClientProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\CommonProxy.java" md5: e634cce28a4bad968e0e6d21c5f0f100
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\proxy\CommonProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\ServerProxy.java" md5: 8847729a44cd5af6963a3f26beb8a0a7
+Cache Hit!
+endProcessing "com\Cmonster03\OreMod\proxy\ServerProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\worldgen\OreGen.java" md5: 96f2fedc72dcdc3b9d91e9b9f81a2271
+endProcessing "com\Cmonster03\OreMod\worldgen\OreGen.java"
+
+startProcessing "handlers\RecipeHandler.java" md5: cf1c2c4f99bcaea794499d56109a3139
+Cache Hit!
+endProcessing "handlers\RecipeHandler.java"
+
+startProcessing "init\ModArmor.java" md5: f269b4aa12d0d6673d8cc515dfc884db
+Cache Hit!
+endProcessing "init\ModArmor.java"
+
+startProcessing "init\ModBlocks.java" md5: bb13873b17f2447fc50e685cf1879955
+Cache Hit!
+endProcessing "init\ModBlocks.java"
+
+startProcessing "init\ModItems.java" md5: 4c5cea967cf8467404eb27183a5343e4
+Cache Hit!
+endProcessing "init\ModItems.java"
+
+startProcessing "init\ModTools.java" md5: 166c39641f9fe1f9226c46baf8e75fce
+endProcessing "init\ModTools.java"
+
+startProcessing "items\ItemBeryllium_ingot.java" md5: 5b965e214c2b9cd68d5c7e3136c583d7
+Cache Hit!
+endProcessing "items\ItemBeryllium_ingot.java"
+
+startProcessing "items\ItemLithium_ingot.java" md5: 76e205cc7732f0770026ed18da143e33
+Cache Hit!
+endProcessing "items\ItemLithium_ingot.java"
+
+startProcessing "items\ItemModArmor.java" md5: 0fbc931384118e772b64d2409e712166
+Cache Hit!
+endProcessing "items\ItemModArmor.java"
+
+startProcessing "items\ItemModAxe.java" md5: a7faf912f7f1ff5b5a8f036284de2eff
+Cache Hit!
+endProcessing "items\ItemModAxe.java"
+
+startProcessing "items\ItemModFood.java" md5: 5714aa66cd2ee630e1c1f82728677907
+Cache Hit!
+endProcessing "items\ItemModFood.java"
+
+startProcessing "items\ItemModHoe.java" md5: 7251d105cc3389e923f8ceb91a7614ee
+Cache Hit!
+endProcessing "items\ItemModHoe.java"
+
+startProcessing "items\ItemModPickaxe.java" md5: 35d07e770f180e9be1197c3ccf683587
+Cache Hit!
+endProcessing "items\ItemModPickaxe.java"
+
+startProcessing "items\ItemModShovel.java" md5: 57ee0681ca6b762ccc93d483769fbd21
+Cache Hit!
+endProcessing "items\ItemModShovel.java"
+
+startProcessing "items\ItemModSword.java" md5: 1c60184b04b2b30a71077f2658745a15
+Cache Hit!
+endProcessing "items\ItemModSword.java"
+
+startProcessing "items\ItemOpal.java" md5: 30a8404a4ae954cc149666acf5520294
+Cache Hit!
+endProcessing "items\ItemOpal.java"
+
+startProcessing "util\Utils.java" md5: 3ede5a0906577b215506d4b294024288
+Cache Hit!
+endProcessing "util\Utils.java"
+
