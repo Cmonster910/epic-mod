@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cmo",
+  "name": "OreMod",
+  "description": "Lolxd.",
+  "version": "0.1",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Cmonster03"],
+  "credits": "Me xd",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

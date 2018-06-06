@@ -1,0 +1,39 @@
+//items
+item.lithium_ingot.name=Lithium Ingot
+item.beryllium_ingot.name=Beryllium Ingot
+item.opal.name=Opal
+
+//food
+item.lithium_apple.name=Lithium Apple
+
+//tools
+item.lithium_pickaxe.name=Lithium Pickaxe
+item.lithium_axe.name=Lithium Axe
+item.lithium_hoe.name=Lithium Hoe
+item.lithium_shovel.name=Lithium Shovel
+item.lithium_sword.name=Lithium Sword
+
+item.opal_pickaxe.name=Opal Pickaxe
+item.opal_axe.name=Opal Axe
+item.opal_hoe.name=Opal Hoe
+item.opal_shovel.name=Opal Shovel
+item.opal_sword.name=Opal Sword
+
+//armor
+item.lithium_helmet.name=Lithium Helmet
+item.lithium_chestplate.name=Lithium Chestplate
+item.lithium_leggings.name=Lithium Leggings
+item.lithium_boots.name=Lithium Boots
+
+item.opal_helmet.name=Opal Helmet
+item.opal_chestplate.name=Opal Chestplate
+item.opal_leggings.name=Opal Leggings
+item.opal_boots.name=Opal Boots
+
+//blocks
+tile.lithium_block.name=Block of Lithium
+tile.lithium_ore.name=Lithium Ore
+tile.opal_ore.name=Opal Ore
+
+//creative tabs
+itemGroup.tab_elements=Elements

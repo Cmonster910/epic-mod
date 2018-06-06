@@ -1,0 +1,1600 @@
+Symbol range map extraction starting
+Processing 27 files
+startProcessing "com\Cmonster03\OreMod\OreMod.java" md5: 3f0ca673c60f6e42621f590581d58ba5
+Cache Hit!
+@|com\Cmonster03\OreMod\OreMod.java|8|29|com.Cmonster03.OreMod|package|com.Cmonster03.OreMod|(file)
+Class Start: com.Cmonster03.OreMod.OreMod
+   @|com\Cmonster03\OreMod\OreMod.java|798|801|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\Cmonster03\OreMod\OreMod.java|802|807|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|810|819|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|820|826|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+   @|com\Cmonster03\OreMod\OreMod.java|828|832|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|835|844|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|845|849|NAME|field|com.Cmonster03.OreMod.Reference|NAME
+   @|com\Cmonster03\OreMod\OreMod.java|851|858|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|861|870|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|871|878|VERSION|field|com.Cmonster03.OreMod.Reference|VERSION
+   @|com\Cmonster03\OreMod\OreMod.java|880|905|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|908|917|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|918|935|ACCEPTED_VERSIONS|field|com.Cmonster03.OreMod.Reference|ACCEPTED_VERSIONS
+   @|com\Cmonster03\OreMod\OreMod.java|950|956|OreMod|class|com.Cmonster03.OreMod.OreMod
+   @|com\Cmonster03\OreMod\OreMod.java|986|992|OreMod|class|com.Cmonster03.OreMod.OreMod
+   @|com\Cmonster03\OreMod\OreMod.java|962|970|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\Cmonster03\OreMod\OreMod.java|986|992|OreMod|class|com.Cmonster03.OreMod.OreMod
+   @|com\Cmonster03\OreMod\OreMod.java|993|1001|instance|field|com.Cmonster03.OreMod.OreMod|instance|
+   @|com\Cmonster03\OreMod\OreMod.java|1119|1130|CommonProxy|class|com.Cmonster03.OreMod.proxy.CommonProxy
+   @|com\Cmonster03\OreMod\OreMod.java|1007|1017|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\Cmonster03\OreMod\OreMod.java|1018|1028|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|1031|1040|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|1041|1059|CLIENT_PROXY_CLASS|field|com.Cmonster03.OreMod.Reference|CLIENT_PROXY_CLASS
+   @|com\Cmonster03\OreMod\OreMod.java|1061|1071|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\Cmonster03\OreMod\OreMod.java|1074|1083|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\OreMod.java|1084|1102|SERVER_PROXY_CLASS|field|com.Cmonster03.OreMod.Reference|SERVER_PROXY_CLASS
+   @|com\Cmonster03\OreMod\OreMod.java|1119|1130|CommonProxy|class|com.Cmonster03.OreMod.proxy.CommonProxy
+   @|com\Cmonster03\OreMod\OreMod.java|1131|1136|proxy|field|com.Cmonster03.OreMod.OreMod|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1202|1207|event|param|com.Cmonster03.OreMod.OreMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\Cmonster03\OreMod\OreMod.java|1142|1154|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\Cmonster03\OreMod\OreMod.java|1168|1175|preInit|method|com.Cmonster03.OreMod.OreMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1176|1201|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\Cmonster03\OreMod\OreMod.java|1217|1225|ModItems|class|init.ModItems
+      @|com\Cmonster03\OreMod\OreMod.java|1226|1230|init|method|init.ModItems|init|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1236|1244|ModItems|class|init.ModItems
+      @|com\Cmonster03\OreMod\OreMod.java|1245|1253|register|method|init.ModItems|register|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1259|1267|ModTools|class|init.ModTools
+      @|com\Cmonster03\OreMod\OreMod.java|1268|1272|init|method|init.ModTools|init|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1278|1286|ModTools|class|init.ModTools
+      @|com\Cmonster03\OreMod\OreMod.java|1287|1295|register|method|init.ModTools|register|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1301|1309|ModArmor|class|init.ModArmor
+      @|com\Cmonster03\OreMod\OreMod.java|1310|1314|init|method|init.ModArmor|init|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1320|1328|ModArmor|class|init.ModArmor
+      @|com\Cmonster03\OreMod\OreMod.java|1329|1337|register|method|init.ModArmor|register|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1343|1352|ModBlocks|class|init.ModBlocks
+      @|com\Cmonster03\OreMod\OreMod.java|1353|1357|init|method|init.ModBlocks|init|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1363|1372|ModBlocks|class|init.ModBlocks
+      @|com\Cmonster03\OreMod\OreMod.java|1373|1381|register|method|init.ModBlocks|register|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1452|1457|event|param|com.Cmonster03.OreMod.OreMod|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\Cmonster03\OreMod\OreMod.java|1398|1410|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\Cmonster03\OreMod\OreMod.java|1424|1428|Init|method|com.Cmonster03.OreMod.OreMod|Init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1429|1451|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\Cmonster03\OreMod\OreMod.java|1464|1469|proxy|field|com.Cmonster03.OreMod.OreMod|proxy
+      @|com\Cmonster03\OreMod\OreMod.java|1470|1474|init|method|com.Cmonster03.OreMod.proxy.CommonProxy|init|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1483|1495|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|com\Cmonster03\OreMod\OreMod.java|1496|1518|registerWorldGenerator|method|net.minecraftforge.fml.common.registry.GameRegistry|registerWorldGenerator|(Lnet/minecraftforge/fml/common/IWorldGenerator;I)V
+      @|com\Cmonster03\OreMod\OreMod.java|1523|1529|OreGen|class|com.Cmonster03.OreMod.worldgen.OreGen
+      @|com\Cmonster03\OreMod\OreMod.java|1539|1552|RecipeHandler|class|handlers.RecipeHandler
+      @|com\Cmonster03\OreMod\OreMod.java|1553|1576|registerCraftingRecipes|method|handlers.RecipeHandler|registerCraftingRecipes|()V
+      @|com\Cmonster03\OreMod\OreMod.java|1582|1595|RecipeHandler|class|handlers.RecipeHandler
+      @|com\Cmonster03\OreMod\OreMod.java|1596|1618|registerFurnaceRecipes|method|handlers.RecipeHandler|registerFurnaceRecipes|()V
+   Method End: Init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1691|1696|event|param|com.Cmonster03.OreMod.OreMod|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\Cmonster03\OreMod\OreMod.java|1629|1641|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\Cmonster03\OreMod\OreMod.java|1655|1663|PostInit|method|com.Cmonster03.OreMod.OreMod|PostInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\Cmonster03\OreMod\OreMod.java|1664|1690|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: PostInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.Cmonster03.OreMod.OreMod
+endProcessing "com\Cmonster03\OreMod\OreMod.java"
+
+startProcessing "com\Cmonster03\OreMod\Reference.java" md5: a81111c218941fc3a20b1fae9e1cc9df
+Cache Hit!
+@|com\Cmonster03\OreMod\Reference.java|8|29|com.Cmonster03.OreMod|package|com.Cmonster03.OreMod|(file)
+Class Start: com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\Reference.java|45|54|Reference|class|com.Cmonster03.OreMod.Reference
+   @|com\Cmonster03\OreMod\Reference.java|80|86|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|80|86|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|87|93|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID|
+   @|com\Cmonster03\OreMod\Reference.java|124|130|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|124|130|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|131|135|NAME|field|com.Cmonster03.OreMod.Reference|NAME|
+   @|com\Cmonster03\OreMod\Reference.java|169|175|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|169|175|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|176|183|VERSION|field|com.Cmonster03.OreMod.Reference|VERSION|
+   @|com\Cmonster03\OreMod\Reference.java|214|220|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|214|220|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|221|238|ACCEPTED_VERSIONS|field|com.Cmonster03.OreMod.Reference|ACCEPTED_VERSIONS|
+   @|com\Cmonster03\OreMod\Reference.java|276|282|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|276|282|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|283|301|CLIENT_PROXY_CLASS|field|com.Cmonster03.OreMod.Reference|CLIENT_PROXY_CLASS|
+   @|com\Cmonster03\OreMod\Reference.java|368|374|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|368|374|String|class|java.lang.String
+   @|com\Cmonster03\OreMod\Reference.java|375|393|SERVER_PROXY_CLASS|field|com.Cmonster03.OreMod.Reference|SERVER_PROXY_CLASS|
+   Enum Start: com.Cmonster03.OreMod.Reference.OreModItems
+      @|com\Cmonster03\OreMod\Reference.java|461|472|OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|com\Cmonster03\OreMod\Reference.java|477|490|LITHIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|LITHIUM_INGOT
+      @|com\Cmonster03\OreMod\Reference.java|532|547|BERYLLIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|BERYLLIUM_INGOT
+      @|com\Cmonster03\OreMod\Reference.java|593|597|OPAL|field|com.Cmonster03.OreMod.Reference.OreModItems|OPAL
+      @|com\Cmonster03\OreMod\Reference.java|632|638|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|632|638|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|639|654|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModItems|unlocalizedName|
+      @|com\Cmonster03\OreMod\Reference.java|666|672|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|666|672|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|673|685|registryName|field|com.Cmonster03.OreMod.Reference.OreModItems|registryName|
+      Method Start: OreModItems(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\Cmonster03\OreMod\Reference.java|711|726|unlocalizedName|param|com.Cmonster03.OreMod.Reference.OreModItems|OreModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\Cmonster03\OreMod\Reference.java|735|747|registryName|param|com.Cmonster03.OreMod.Reference.OreModItems|OreModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|com\Cmonster03\OreMod\Reference.java|692|703|OreModItems|method|com.Cmonster03.OreMod.Reference.OreModItems|OreModItems|(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\Cmonster03\OreMod\Reference.java|704|710|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|728|734|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|759|774|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModItems|unlocalizedName
+         @|com\Cmonster03\OreMod\Reference.java|777|792|unlocalizedName|param|com.Cmonster03.OreMod.Reference.OreModItems|OreModItems|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\Cmonster03\OreMod\Reference.java|802|814|registryName|field|com.Cmonster03.OreMod.Reference.OreModItems|registryName
+         @|com\Cmonster03\OreMod\Reference.java|817|829|registryName|param|com.Cmonster03.OreMod.Reference.OreModItems|OreModItems|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+      Method End: OreModItems(Ljava/lang/String;Ljava/lang/String;)V
+      Method Start: getUnlocalizedName()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|847|853|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|854|872|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModItems|getUnlocalizedName|()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|887|902|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModItems|unlocalizedName
+      Method End: getUnlocalizedName()Ljava/lang/String;
+      Method Start: getRegistryName()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|920|926|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|927|942|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModItems|getRegistryName|()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|956|968|registryName|field|com.Cmonster03.OreMod.Reference.OreModItems|registryName
+      Method End: getRegistryName()Ljava/lang/String;
+   Enum End  : com.Cmonster03.OreMod.Reference.OreModItems
+   Enum Start: com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\Reference.java|999|1011|OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\Reference.java|1016|1029|LITHIUM_BLOCK|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_BLOCK
+      @|com\Cmonster03\OreMod\Reference.java|1072|1083|LITHIUM_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_ORE
+      @|com\Cmonster03\OreMod\Reference.java|1122|1130|OPAL_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|OPAL_ORE
+      @|com\Cmonster03\OreMod\Reference.java|1174|1180|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|1174|1180|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|1181|1196|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|unlocalizedName|
+      @|com\Cmonster03\OreMod\Reference.java|1208|1214|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|1208|1214|String|class|java.lang.String
+      @|com\Cmonster03\OreMod\Reference.java|1215|1227|registryName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|registryName|
+      Method Start: OreModBlocks(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\Cmonster03\OreMod\Reference.java|1254|1269|unlocalizedName|param|com.Cmonster03.OreMod.Reference.OreModBlocks|OreModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\Cmonster03\OreMod\Reference.java|1278|1290|registryName|param|com.Cmonster03.OreMod.Reference.OreModBlocks|OreModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+         @|com\Cmonster03\OreMod\Reference.java|1234|1246|OreModBlocks|method|com.Cmonster03.OreMod.Reference.OreModBlocks|OreModBlocks|(Ljava/lang/String;Ljava/lang/String;)V
+         @|com\Cmonster03\OreMod\Reference.java|1247|1253|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|1271|1277|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|1302|1317|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|unlocalizedName
+         @|com\Cmonster03\OreMod\Reference.java|1320|1335|unlocalizedName|param|com.Cmonster03.OreMod.Reference.OreModBlocks|OreModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|unlocalizedName|0
+         @|com\Cmonster03\OreMod\Reference.java|1345|1357|registryName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|registryName
+         @|com\Cmonster03\OreMod\Reference.java|1360|1372|registryName|param|com.Cmonster03.OreMod.Reference.OreModBlocks|OreModBlocks|(Ljava/lang/String;Ljava/lang/String;)V|registryName|1
+      Method End: OreModBlocks(Ljava/lang/String;Ljava/lang/String;)V
+      Method Start: getUnlocalizedName()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|1390|1396|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|1397|1415|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getUnlocalizedName|()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|1430|1445|unlocalizedName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|unlocalizedName
+      Method End: getUnlocalizedName()Ljava/lang/String;
+      Method Start: getRegistryName()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|1463|1469|String|class|java.lang.String
+         @|com\Cmonster03\OreMod\Reference.java|1470|1485|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getRegistryName|()Ljava/lang/String;
+         @|com\Cmonster03\OreMod\Reference.java|1499|1511|registryName|field|com.Cmonster03.OreMod.Reference.OreModBlocks|registryName
+      Method End: getRegistryName()Ljava/lang/String;
+   Enum End  : com.Cmonster03.OreMod.Reference.OreModBlocks
+Class End  : com.Cmonster03.OreMod.Reference
+endProcessing "com\Cmonster03\OreMod\Reference.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_block.java" md5: a59172ee6de45543640db89e999439a6
+Cache Hit!
+@|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|8|36|com.Cmonster03.OreMod.blocks|package|com.Cmonster03.OreMod.blocks|(file)
+Class Start: com.Cmonster03.OreMod.blocks.BlockLithium_block
+   @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|312|330|BlockLithium_block|class|com.Cmonster03.OreMod.blocks.BlockLithium_block
+   @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|339|344|Block|class|net.minecraft.block.Block
+   Method Start: BlockLithium_block()V
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|357|375|BlockLithium_block|method|com.Cmonster03.OreMod.blocks.BlockLithium_block|BlockLithium_block|()V
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|388|396|Material|class|net.minecraft.block.material.Material
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|397|401|IRON|field|net.minecraft.block.material.Material|IRON
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|411|429|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|430|452|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|453|466|LITHIUM_BLOCK|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_BLOCK
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|467|485|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getUnlocalizedName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|497|512|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|513|535|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|536|549|LITHIUM_BLOCK|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_BLOCK
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|550|565|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getRegistryName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|577|588|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|603|616|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|630|645|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockLithium_block()V
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|716|721|state|param|com.Cmonster03.OreMod.blocks.BlockLithium_block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|730|734|rand|param|com.Cmonster03.OreMod.blocks.BlockLithium_block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|740|747|fortune|param|com.Cmonster03.OreMod.blocks.BlockLithium_block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|667|675|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|684|688|Item|class|net.minecraft.item.Item
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|689|703|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|704|715|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|723|729|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|760|764|Item|class|net.minecraft.item.Item
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_block.java|765|781|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+Class End  : com.Cmonster03.OreMod.blocks.BlockLithium_block
+endProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_block.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_ore.java" md5: 167fe79b7e20ac44ee08cfb6ff6a9cbe
+Cache Hit!
+@|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|8|36|com.Cmonster03.OreMod.blocks|package|com.Cmonster03.OreMod.blocks|(file)
+Class Start: com.Cmonster03.OreMod.blocks.BlockLithium_ore
+   @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|278|294|BlockLithium_ore|class|com.Cmonster03.OreMod.blocks.BlockLithium_ore
+   @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|303|308|Block|class|net.minecraft.block.Block
+   Method Start: BlockLithium_ore()V
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|321|337|BlockLithium_ore|method|com.Cmonster03.OreMod.blocks.BlockLithium_ore|BlockLithium_ore|()V
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|350|358|Material|class|net.minecraft.block.material.Material
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|359|363|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|373|391|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|392|414|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|415|426|LITHIUM_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_ORE
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|427|445|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getUnlocalizedName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|457|472|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|473|495|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|496|507|LITHIUM_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|LITHIUM_ORE
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|508|523|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getRegistryName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|535|546|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|561|574|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|588|603|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockLithium_ore()V
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|674|679|state|param|com.Cmonster03.OreMod.blocks.BlockLithium_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|688|692|rand|param|com.Cmonster03.OreMod.blocks.BlockLithium_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|698|705|fortune|param|com.Cmonster03.OreMod.blocks.BlockLithium_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|625|633|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|642|646|Item|class|net.minecraft.item.Item
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|647|661|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|662|673|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|681|687|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|718|722|Item|class|net.minecraft.item.Item
+      @|com\Cmonster03\OreMod\blocks\BlockLithium_ore.java|723|739|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+Class End  : com.Cmonster03.OreMod.blocks.BlockLithium_ore
+endProcessing "com\Cmonster03\OreMod\blocks\BlockLithium_ore.java"
+
+startProcessing "com\Cmonster03\OreMod\blocks\BlockOpal_ore.java" md5: 493ff3fcde3ed0584c8e8f7559217363
+Cache Hit!
+@|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|8|36|com.Cmonster03.OreMod.blocks|package|com.Cmonster03.OreMod.blocks|(file)
+Class Start: com.Cmonster03.OreMod.blocks.BlockOpal_ore
+   @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|300|313|BlockOpal_ore|class|com.Cmonster03.OreMod.blocks.BlockOpal_ore
+   @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|322|327|Block|class|net.minecraft.block.Block
+   Method Start: BlockOpal_ore()V
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|340|353|BlockOpal_ore|method|com.Cmonster03.OreMod.blocks.BlockOpal_ore|BlockOpal_ore|()V
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|366|374|Material|class|net.minecraft.block.material.Material
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|375|379|ROCK|field|net.minecraft.block.material.Material|ROCK
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|389|407|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|408|430|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|431|439|OPAL_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|OPAL_ORE
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|440|458|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getUnlocalizedName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|470|485|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|486|508|Reference.OreModBlocks|class|com.Cmonster03.OreMod.Reference.OreModBlocks
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|509|517|OPAL_ORE|field|com.Cmonster03.OreMod.Reference.OreModBlocks|OPAL_ORE
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|518|533|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModBlocks|getRegistryName|()Ljava/lang/String;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|545|556|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|571|584|setResistance|method|net.minecraft.block.Block|setResistance|(F)Lnet/minecraft/block/Block;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|598|613|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+   Method End: BlockOpal_ore()V
+   Method Start: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|683|688|state|param|com.Cmonster03.OreMod.blocks.BlockOpal_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|state|0
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|697|701|rand|param|com.Cmonster03.OreMod.blocks.BlockOpal_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|rand|1
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|707|714|fortune|param|com.Cmonster03.OreMod.blocks.BlockOpal_ore|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;|fortune|2
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|634|642|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|651|655|Item|class|net.minecraft.item.Item
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|656|670|getItemDropped|method|net.minecraft.block.Block|getItemDropped|(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|671|682|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|690|696|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|727|735|ModItems|class|init.ModItems
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|736|740|opal|field|init.ModItems|opal
+   Method End: getItemDropped(Lnet/minecraft/block/state/IBlockState;Ljava/util/Random;I)Lnet/minecraft/item/Item;
+   Method Start: quantityDropped(Ljava/util/Random;)I
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|793|797|rand|param|com.Cmonster03.OreMod.blocks.BlockOpal_ore|quantityDropped|(Ljava/util/Random;)I|rand|0
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|749|757|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|770|785|quantityDropped|method|net.minecraft.block.Block|quantityDropped|(Ljava/util/Random;)I
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|786|792|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|814|818|rand|param|com.Cmonster03.OreMod.blocks.BlockOpal_ore|quantityDropped|(Ljava/util/Random;)I|rand|0
+      @|com\Cmonster03\OreMod\blocks\BlockOpal_ore.java|819|826|nextInt|method|java.util.Random|nextInt|(I)I
+   Method End: quantityDropped(Ljava/util/Random;)I
+Class End  : com.Cmonster03.OreMod.blocks.BlockOpal_ore
+endProcessing "com\Cmonster03\OreMod\blocks\BlockOpal_ore.java"
+
+startProcessing "com\Cmonster03\OreMod\client\gui\GuiHandler.java" md5: bdde6b8fe16516fb4576332c87152d14
+Cache Hit!
+@|com\Cmonster03\OreMod\client\gui\GuiHandler.java|8|40|com.Cmonster03.OreMod.client.gui|package|com.Cmonster03.OreMod.client.gui|(file)
+Class Start: com.Cmonster03.OreMod.client.gui.GuiHandler
+   @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|198|208|GuiHandler|class|com.Cmonster03.OreMod.client.gui.GuiHandler
+   @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|220|231|IGuiHandler|class|net.minecraftforge.fml.common.network.IGuiHandler
+   Method Start: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|284|286|ID|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|ID|0
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|301|307|player|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|315|320|world|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|326|327|x|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|333|334|y|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|340|341|z|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|236|244|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|253|259|Object|class|java.lang.Object
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|260|279|getServerGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getServerGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|288|300|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|309|314|World|class|net.minecraft.world.World
+   Method End: getServerGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+   Method Start: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|414|416|ID|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|ID|0
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|431|437|player|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|player|1
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|445|450|world|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|world|2
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|456|457|x|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|x|3
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|463|464|y|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|y|4
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|470|471|z|param|com.Cmonster03.OreMod.client.gui.GuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;|z|5
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|366|374|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|383|389|Object|class|java.lang.Object
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|390|409|getClientGuiElement|method|net.minecraftforge.fml.common.network.IGuiHandler|getClientGuiElement|(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|418|430|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|com\Cmonster03\OreMod\client\gui\GuiHandler.java|439|444|World|class|net.minecraft.world.World
+   Method End: getClientGuiElement(ILnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/world/World;III)Ljava/lang/Object;
+Class End  : com.Cmonster03.OreMod.client.gui.GuiHandler
+endProcessing "com\Cmonster03\OreMod\client\gui\GuiHandler.java"
+
+startProcessing "com\Cmonster03\OreMod\creativetabs\TabElements.java" md5: a030bbf5f14847880723ca5ef358b49f
+Cache Hit!
+@|com\Cmonster03\OreMod\creativetabs\TabElements.java|8|42|com.Cmonster03.OreMod.creativetabs|package|com.Cmonster03.OreMod.creativetabs|(file)
+Class Start: com.Cmonster03.OreMod.creativetabs.TabElements
+   @|com\Cmonster03\OreMod\creativetabs\TabElements.java|165|176|TabElements|class|com.Cmonster03.OreMod.creativetabs.TabElements
+   @|com\Cmonster03\OreMod\creativetabs\TabElements.java|194|206|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\Cmonster03\OreMod\creativetabs\TabElements.java|194|206|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   @|com\Cmonster03\OreMod\creativetabs\TabElements.java|207|219|tab_elements|field|com.Cmonster03.OreMod.creativetabs.TabElements|tab_elements|
+   @|com\Cmonster03\OreMod\creativetabs\TabElements.java|226|238|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+   Anon Class Start: com.Cmonster03.OreMod.creativetabs.TabElements$1
+      Method Start: getTabIconItem()Lnet/minecraft/item/ItemStack;
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|261|269|Override|class|java.lang.Override
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|278|287|ItemStack|class|net.minecraft.item.ItemStack
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|288|302|getTabIconItem|method|net.minecraft.creativetab.CreativeTabs|getTabIconItem|()Lnet/minecraft/item/ItemStack;
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|320|329|ItemStack|class|net.minecraft.item.ItemStack
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|330|338|ModItems|class|init.ModItems
+         @|com\Cmonster03\OreMod\creativetabs\TabElements.java|339|352|lithium_ingot|field|init.ModItems|lithium_ingot
+      Method End: getTabIconItem()Lnet/minecraft/item/ItemStack;
+   Anon Class End: com.Cmonster03.OreMod.creativetabs.TabElements$1
+Class End  : com.Cmonster03.OreMod.creativetabs.TabElements
+endProcessing "com\Cmonster03\OreMod\creativetabs\TabElements.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\ClientProxy.java" md5: 20c3d30c3797b0ab9db42a0dc9fa7d72
+Cache Hit!
+@|com\Cmonster03\OreMod\proxy\ClientProxy.java|8|35|com.Cmonster03.OreMod.proxy|package|com.Cmonster03.OreMod.proxy|(file)
+Class Start: com.Cmonster03.OreMod.proxy.ClientProxy
+   @|com\Cmonster03\OreMod\proxy\ClientProxy.java|293|304|ClientProxy|class|com.Cmonster03.OreMod.proxy.ClientProxy
+   @|com\Cmonster03\OreMod\proxy\ClientProxy.java|316|327|CommonProxy|class|com.Cmonster03.OreMod.proxy.CommonProxy
+   Method Start: init()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|333|341|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|355|359|init|method|com.Cmonster03.OreMod.proxy.CommonProxy|init|()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|366|374|ModItems|class|init.ModItems
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|375|390|registerRenders|method|init.ModItems|registerRenders|()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|396|405|ModBlocks|class|init.ModBlocks
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|406|421|registerRenders|method|init.ModBlocks|registerRenders|()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|427|435|ModTools|class|init.ModTools
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|436|451|registerRenders|method|init.ModTools|registerRenders|()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|457|465|ModArmor|class|init.ModArmor
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|466|481|registerRenders|method|init.ModArmor|registerRenders|()V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|487|502|NetworkRegistry|class|net.minecraftforge.fml.common.network.NetworkRegistry
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|503|511|INSTANCE|field|net.minecraftforge.fml.common.network.NetworkRegistry|INSTANCE
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|512|530|registerGuiHandler|method|net.minecraftforge.fml.common.network.NetworkRegistry|registerGuiHandler|(Ljava/lang/Object;Lnet/minecraftforge/fml/common/network/IGuiHandler;)V
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|531|537|OreMod|class|com.Cmonster03.OreMod.OreMod
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|538|546|instance|field|com.Cmonster03.OreMod.OreMod|instance
+      @|com\Cmonster03\OreMod\proxy\ClientProxy.java|552|562|GuiHandler|class|com.Cmonster03.OreMod.client.gui.GuiHandler
+   Method End: init()V
+Class End  : com.Cmonster03.OreMod.proxy.ClientProxy
+endProcessing "com\Cmonster03\OreMod\proxy\ClientProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\CommonProxy.java" md5: e634cce28a4bad968e0e6d21c5f0f100
+Cache Hit!
+@|com\Cmonster03\OreMod\proxy\CommonProxy.java|8|35|com.Cmonster03.OreMod.proxy|package|com.Cmonster03.OreMod.proxy|(file)
+Class Start: com.Cmonster03.OreMod.proxy.CommonProxy
+   @|com\Cmonster03\OreMod\proxy\CommonProxy.java|55|66|CommonProxy|class|com.Cmonster03.OreMod.proxy.CommonProxy
+   Method Start: init()V
+      @|com\Cmonster03\OreMod\proxy\CommonProxy.java|84|88|init|method|com.Cmonster03.OreMod.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.Cmonster03.OreMod.proxy.CommonProxy
+endProcessing "com\Cmonster03\OreMod\proxy\CommonProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\proxy\ServerProxy.java" md5: 8847729a44cd5af6963a3f26beb8a0a7
+Cache Hit!
+@|com\Cmonster03\OreMod\proxy\ServerProxy.java|8|35|com.Cmonster03.OreMod.proxy|package|com.Cmonster03.OreMod.proxy|(file)
+Class Start: com.Cmonster03.OreMod.proxy.ServerProxy
+   @|com\Cmonster03\OreMod\proxy\ServerProxy.java|51|62|ServerProxy|class|com.Cmonster03.OreMod.proxy.ServerProxy
+   @|com\Cmonster03\OreMod\proxy\ServerProxy.java|74|85|CommonProxy|class|com.Cmonster03.OreMod.proxy.CommonProxy
+   Method Start: init()V
+      @|com\Cmonster03\OreMod\proxy\ServerProxy.java|91|99|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\proxy\ServerProxy.java|113|117|init|method|com.Cmonster03.OreMod.proxy.CommonProxy|init|()V
+   Method End: init()V
+Class End  : com.Cmonster03.OreMod.proxy.ServerProxy
+endProcessing "com\Cmonster03\OreMod\proxy\ServerProxy.java"
+
+startProcessing "com\Cmonster03\OreMod\worldgen\OreGen.java" md5: 96f2fedc72dcdc3b9d91e9b9f81a2271
+@|com\Cmonster03\OreMod\worldgen\OreGen.java|8|38|com.Cmonster03.OreMod.worldgen|package|com.Cmonster03.OreMod.worldgen|(file)
+Class Start: com.Cmonster03.OreMod.worldgen.OreGen
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|532|538|OreGen|class|com.Cmonster03.OreMod.worldgen.OreGen
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|550|565|IWorldGenerator|class|net.minecraftforge.fml.common.IWorldGenerator
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|597|611|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|597|611|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|612|627|gen_lithium_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_lithium_ore|
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|638|652|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|638|652|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+   @|com\Cmonster03\OreMod\worldgen\OreGen.java|653|665|gen_opal_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_opal_ore|
+   Method Start: OreGen()V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|696|702|OreGen|method|com.Cmonster03.OreMod.worldgen.OreGen|OreGen|()V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|714|729|gen_lithium_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_lithium_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|736|751|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|752|761|ModBlocks|class|init.ModBlocks
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|762|773|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|774|789|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|797|809|BlockMatcher|class|net.minecraft.block.state.pattern.BlockMatcher
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|810|818|forBlock|method|net.minecraft.block.state.pattern.BlockMatcher|forBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/state/pattern/BlockMatcher;
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|819|825|Blocks|class|net.minecraft.init.Blocks
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|826|831|STONE|field|net.minecraft.init.Blocks|STONE
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|842|854|gen_opal_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_opal_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|861|876|WorldGenMinable|class|net.minecraft.world.gen.feature.WorldGenMinable
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|877|886|ModBlocks|class|init.ModBlocks
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|887|895|opal_ore|field|init.ModBlocks|opal_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|896|911|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|918|930|BlockMatcher|class|net.minecraft.block.state.pattern.BlockMatcher
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|931|939|forBlock|method|net.minecraft.block.state.pattern.BlockMatcher|forBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/block/state/pattern/BlockMatcher;
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|940|946|Blocks|class|net.minecraft.init.Blocks
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|947|952|STONE|field|net.minecraft.init.Blocks|STONE
+   Method End: OreGen()V
+   Method Start: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1001|1007|random|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1013|1019|chunkX|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1025|1031|chunkZ|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1039|1044|world|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1062|1076|chunkGenerator|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkGenerator|4
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1093|1106|chunkProvider|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkProvider|5
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|963|971|Override|class|java.lang.Override
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|985|993|generate|method|net.minecraftforge.fml.common.IWorldGenerator|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|994|1000|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1033|1038|World|class|net.minecraft.world.World
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1046|1061|IChunkGenerator|class|net.minecraft.world.chunk.IChunkGenerator
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1078|1092|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1120|1125|world|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1126|1134|provider|field|net.minecraft.world.World|provider
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1135|1147|getDimension|method|net.minecraft.world.WorldProvider|getDimension|()I
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1183|1195|runGenerator|method|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1201|1216|gen_lithium_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_lithium_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1218|1223|world|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1225|1231|random|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1233|1239|chunkX|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1241|1247|chunkZ|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1269|1281|runGenerator|method|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1287|1299|gen_opal_ore|field|com.Cmonster03.OreMod.worldgen.OreGen|gen_opal_ore
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1301|1306|world|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1308|1314|random|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1316|1322|chunkX|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1324|1330|chunkZ|param|com.Cmonster03.OreMod.worldgen.OreGen|generate|(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+   Method End: generate(Ljava/util/Random;IILnet/minecraft/world/World;Lnet/minecraft/world/chunk/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+   Method Start: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1475|1484|generator|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1492|1497|world|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1506|1510|rand|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1516|1523|chunk_X|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1529|1536|chunk_Z|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1542|1556|chancesToSpawn|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1562|1571|minHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1577|1586|maxHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1447|1459|runGenerator|method|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1460|1474|WorldGenerator|class|net.minecraft.world.gen.feature.WorldGenerator
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1486|1491|World|class|net.minecraft.world.World
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1499|1505|Random|class|java.util.Random
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1599|1608|minHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1616|1625|maxHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1635|1644|minHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1647|1656|maxHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1677|1701|IllegalArgumentException|class|java.lang.IllegalArgumentException
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1773|1782|maxHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|maxHeight|7
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1785|1794|minHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1825|1839|chancesToSpawn|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chancesToSpawn|5
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1866|1873|chunk_X|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_X|3
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1881|1885|rand|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1886|1893|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1916|1925|minHeight|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|minHeight|6
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1928|1932|rand|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1933|1940|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1971|1978|chunk_Z|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|chunk_Z|4
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1986|1990|rand|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|1991|1998|nextInt|method|java.util.Random|nextInt|(I)I
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|2013|2022|generator|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|generator|0
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|2023|2031|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|2032|2037|world|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|world|1
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|2039|2043|rand|param|com.Cmonster03.OreMod.worldgen.OreGen|runGenerator|(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V|rand|2
+      @|com\Cmonster03\OreMod\worldgen\OreGen.java|2049|2057|BlockPos|class|net.minecraft.util.math.BlockPos
+   Method End: runGenerator(Lnet/minecraft/world/gen/feature/WorldGenerator;Lnet/minecraft/world/World;Ljava/util/Random;IIIII)V
+Class End  : com.Cmonster03.OreMod.worldgen.OreGen
+endProcessing "com\Cmonster03\OreMod\worldgen\OreGen.java"
+
+startProcessing "handlers\RecipeHandler.java" md5: cf1c2c4f99bcaea794499d56109a3139
+Cache Hit!
+@|handlers\RecipeHandler.java|8|16|handlers|package|handlers|(file)
+Class Start: handlers.RecipeHandler
+   @|handlers\RecipeHandler.java|476|489|RecipeHandler|class|handlers.RecipeHandler
+   Method Start: registerCraftingRecipes()V
+      @|handlers\RecipeHandler.java|514|537|registerCraftingRecipes|method|handlers.RecipeHandler|registerCraftingRecipes|()V
+      @|handlers\RecipeHandler.java|544|556|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|557|572|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|handlers\RecipeHandler.java|577|586|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|587|596|ModBlocks|class|init.ModBlocks
+      @|handlers\RecipeHandler.java|597|610|lithium_block|field|init.ModBlocks|lithium_block
+      @|handlers\RecipeHandler.java|639|647|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|648|661|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|666|678|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|679|697|addShapelessRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapelessRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|702|711|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|712|720|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|721|734|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|740|749|ModBlocks|class|init.ModBlocks
+      @|handlers\RecipeHandler.java|750|763|lithium_block|field|init.ModBlocks|lithium_block
+      @|handlers\RecipeHandler.java|768|780|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|781|796|addShapedRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addShapedRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)Lnet/minecraft/item/crafting/IRecipe;
+      @|handlers\RecipeHandler.java|801|810|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|811|819|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|820|833|lithium_apple|field|init.ModItems|lithium_apple
+      @|handlers\RecipeHandler.java|862|870|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|871|884|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|891|896|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|897|902|APPLE|field|net.minecraft.init.Items|APPLE
+      @|handlers\RecipeHandler.java|907|912|Utils|class|util.Utils
+      @|handlers\RecipeHandler.java|913|922|getLogger|method|util.Utils|getLogger|()Lorg/apache/logging/log4j/Logger;
+      @|handlers\RecipeHandler.java|925|929|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|handlers\RecipeHandler.java|964|982|registerToolRecipe|method|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|983|991|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|992|1007|lithium_pickaxe|field|init.ModTools|lithium_pickaxe
+      @|handlers\RecipeHandler.java|1009|1017|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1018|1029|lithium_axe|field|init.ModTools|lithium_axe
+      @|handlers\RecipeHandler.java|1031|1039|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1040|1051|lithium_hoe|field|init.ModTools|lithium_hoe
+      @|handlers\RecipeHandler.java|1053|1061|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1062|1076|lithium_shovel|field|init.ModTools|lithium_shovel
+      @|handlers\RecipeHandler.java|1078|1086|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1087|1100|lithium_sword|field|init.ModTools|lithium_sword
+      @|handlers\RecipeHandler.java|1102|1110|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1111|1124|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|1129|1147|registerToolRecipe|method|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|1148|1156|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1157|1169|opal_pickaxe|field|init.ModTools|opal_pickaxe
+      @|handlers\RecipeHandler.java|1171|1179|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1180|1188|opal_axe|field|init.ModTools|opal_axe
+      @|handlers\RecipeHandler.java|1190|1198|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1199|1207|opal_hoe|field|init.ModTools|opal_hoe
+      @|handlers\RecipeHandler.java|1209|1217|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1218|1229|opal_shovel|field|init.ModTools|opal_shovel
+      @|handlers\RecipeHandler.java|1231|1239|ModTools|class|init.ModTools
+      @|handlers\RecipeHandler.java|1240|1250|opal_sword|field|init.ModTools|opal_sword
+      @|handlers\RecipeHandler.java|1252|1260|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1261|1265|opal|field|init.ModItems|opal
+      @|handlers\RecipeHandler.java|1270|1289|registerArmorRecipe|method|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|1290|1298|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1299|1313|lithium_helmet|field|init.ModArmor|lithium_helmet
+      @|handlers\RecipeHandler.java|1315|1323|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1324|1342|lithium_chestplate|field|init.ModArmor|lithium_chestplate
+      @|handlers\RecipeHandler.java|1344|1352|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1353|1369|lithium_leggings|field|init.ModArmor|lithium_leggings
+      @|handlers\RecipeHandler.java|1371|1379|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1380|1393|lithium_boots|field|init.ModArmor|lithium_boots
+      @|handlers\RecipeHandler.java|1395|1403|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1404|1417|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|1422|1441|registerArmorRecipe|method|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|1442|1450|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1451|1462|opal_helmet|field|init.ModArmor|opal_helmet
+      @|handlers\RecipeHandler.java|1464|1472|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1473|1488|opal_chestplate|field|init.ModArmor|opal_chestplate
+      @|handlers\RecipeHandler.java|1490|1498|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1499|1512|opal_leggings|field|init.ModArmor|opal_leggings
+      @|handlers\RecipeHandler.java|1514|1522|ModArmor|class|init.ModArmor
+      @|handlers\RecipeHandler.java|1523|1533|opal_boots|field|init.ModArmor|opal_boots
+      @|handlers\RecipeHandler.java|1535|1543|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1544|1548|opal|field|init.ModItems|opal
+   Method End: registerCraftingRecipes()V
+   Method Start: registerFurnaceRecipes()V
+      @|handlers\RecipeHandler.java|1575|1597|registerFurnaceRecipes|method|handlers.RecipeHandler|registerFurnaceRecipes|()V
+      @|handlers\RecipeHandler.java|1607|1612|Utils|class|util.Utils
+      @|handlers\RecipeHandler.java|1613|1622|getLogger|method|util.Utils|getLogger|()Lorg/apache/logging/log4j/Logger;
+      @|handlers\RecipeHandler.java|1625|1629|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;)V
+      @|handlers\RecipeHandler.java|1663|1675|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|1676|1687|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|handlers\RecipeHandler.java|1688|1697|ModBlocks|class|init.ModBlocks
+      @|handlers\RecipeHandler.java|1698|1709|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|handlers\RecipeHandler.java|1715|1724|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|1725|1733|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1734|1747|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|handlers\RecipeHandler.java|1757|1769|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|1770|1781|addSmelting|method|net.minecraftforge.fml.common.registry.GameRegistry|addSmelting|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;F)V
+      @|handlers\RecipeHandler.java|1782|1791|ModBlocks|class|init.ModBlocks
+      @|handlers\RecipeHandler.java|1792|1800|opal_ore|field|init.ModBlocks|opal_ore
+      @|handlers\RecipeHandler.java|1806|1815|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|1816|1824|ModItems|class|init.ModItems
+      @|handlers\RecipeHandler.java|1825|1829|opal|field|init.ModItems|opal
+   Method End: registerFurnaceRecipes()V
+   Method Start: registerToolRecipe(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|1889|1896|pickaxe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|pickaxe|0
+      @|handlers\RecipeHandler.java|1903|1906|axe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|axe|1
+      @|handlers\RecipeHandler.java|1913|1916|hoe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|hoe|2
+      @|handlers\RecipeHandler.java|1923|1929|shovel|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|shovel|3
+      @|handlers\RecipeHandler.java|1936|1941|sword|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|sword|4
+      @|handlers\RecipeHandler.java|1948|1953|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|1865|1883|registerToolRecipe|method|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|1884|1888|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1898|1902|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1908|1912|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1918|1922|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1931|1935|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1943|1947|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|1959|1971|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|1972|1981|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|1986|1995|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|1996|2003|pickaxe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|pickaxe|0
+      @|handlers\RecipeHandler.java|2010|2016|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2044|2049|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2056|2061|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2062|2067|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2074|2086|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2087|2096|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2101|2110|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2111|2114|axe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|axe|1
+      @|handlers\RecipeHandler.java|2121|2127|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2155|2160|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2167|2172|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2173|2178|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2185|2197|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2198|2207|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2212|2221|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2222|2225|axe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|axe|1
+      @|handlers\RecipeHandler.java|2232|2238|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2266|2271|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2278|2283|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2284|2289|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2296|2308|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2309|2318|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2323|2332|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2333|2336|hoe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|hoe|2
+      @|handlers\RecipeHandler.java|2343|2349|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2377|2382|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2389|2394|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2395|2400|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2407|2419|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2420|2429|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2434|2443|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2444|2447|hoe|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|hoe|2
+      @|handlers\RecipeHandler.java|2454|2460|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2488|2493|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2500|2505|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2506|2511|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2518|2530|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2531|2540|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2545|2554|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2555|2561|shovel|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|shovel|3
+      @|handlers\RecipeHandler.java|2568|2574|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2602|2607|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2614|2619|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2620|2625|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2632|2644|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2645|2654|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2659|2668|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2669|2675|shovel|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|shovel|3
+      @|handlers\RecipeHandler.java|2682|2688|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2716|2721|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2728|2733|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2734|2739|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2746|2758|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2759|2768|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2773|2782|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2783|2789|shovel|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|shovel|3
+      @|handlers\RecipeHandler.java|2796|2802|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2830|2835|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2842|2847|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2848|2853|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2860|2872|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2873|2882|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|2887|2896|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|2897|2902|sword|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|sword|4
+      @|handlers\RecipeHandler.java|2909|2915|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|2943|2948|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|2955|2960|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|2961|2966|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|2973|2985|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|2986|2995|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3000|3009|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3010|3015|sword|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|sword|4
+      @|handlers\RecipeHandler.java|3022|3028|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3056|3061|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|3068|3073|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|3074|3079|STICK|field|net.minecraft.init.Items|STICK
+      @|handlers\RecipeHandler.java|3086|3098|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3099|3108|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3113|3122|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3123|3128|sword|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|sword|4
+      @|handlers\RecipeHandler.java|3135|3141|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3169|3174|ingot|param|handlers.RecipeHandler|registerToolRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|5
+      @|handlers\RecipeHandler.java|3181|3186|Items|class|net.minecraft.init.Items
+      @|handlers\RecipeHandler.java|3187|3192|STICK|field|net.minecraft.init.Items|STICK
+   Method End: registerToolRecipe(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+   Method Start: registerArmorRecipe(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|3247|3253|helmet|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|helmet|0
+      @|handlers\RecipeHandler.java|3260|3270|chestplate|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|chestplate|1
+      @|handlers\RecipeHandler.java|3277|3285|leggings|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|leggings|2
+      @|handlers\RecipeHandler.java|3292|3297|boots|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|boots|3
+      @|handlers\RecipeHandler.java|3304|3309|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3222|3241|registerArmorRecipe|method|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+      @|handlers\RecipeHandler.java|3242|3246|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|3255|3259|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|3272|3276|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|3287|3291|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|3299|3303|Item|class|net.minecraft.item.Item
+      @|handlers\RecipeHandler.java|3315|3327|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3328|3337|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3342|3351|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3352|3358|helmet|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|helmet|0
+      @|handlers\RecipeHandler.java|3365|3371|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3398|3403|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3409|3421|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3422|3431|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3436|3445|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3446|3452|helmet|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|helmet|0
+      @|handlers\RecipeHandler.java|3459|3465|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3492|3497|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3503|3515|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3516|3525|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3530|3539|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3540|3550|chestplate|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|chestplate|1
+      @|handlers\RecipeHandler.java|3557|3563|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3590|3595|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3601|3613|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3614|3623|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3628|3637|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3638|3646|leggings|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|leggings|2
+      @|handlers\RecipeHandler.java|3653|3659|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3686|3691|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3697|3709|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3710|3719|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3724|3733|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3734|3739|boots|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|boots|3
+      @|handlers\RecipeHandler.java|3746|3752|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3779|3784|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+      @|handlers\RecipeHandler.java|3790|3802|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|handlers\RecipeHandler.java|3803|3812|addRecipe|method|net.minecraftforge.fml.common.registry.GameRegistry|addRecipe|(Lnet/minecraft/item/ItemStack;[Ljava/lang/Object;)V
+      @|handlers\RecipeHandler.java|3817|3826|ItemStack|class|net.minecraft.item.ItemStack
+      @|handlers\RecipeHandler.java|3827|3832|boots|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|boots|3
+      @|handlers\RecipeHandler.java|3839|3845|Object|class|java.lang.Object
+      @|handlers\RecipeHandler.java|3872|3877|ingot|param|handlers.RecipeHandler|registerArmorRecipe|(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V|ingot|4
+   Method End: registerArmorRecipe(Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;Lnet/minecraft/item/Item;)V
+Class End  : handlers.RecipeHandler
+endProcessing "handlers\RecipeHandler.java"
+
+startProcessing "init\ModArmor.java" md5: f269b4aa12d0d6673d8cc515dfc884db
+Cache Hit!
+@|init\ModArmor.java|8|12|init|package|init|(file)
+Class Start: init.ModArmor
+   @|init\ModArmor.java|529|537|ModArmor|class|init.ModArmor
+   @|init\ModArmor.java|557|570|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|init\ModArmor.java|557|570|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|init\ModArmor.java|571|587|lithium_material|field|init.ModArmor|lithium_material|
+   @|init\ModArmor.java|590|600|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|init\ModArmor.java|601|617|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|init\ModArmor.java|629|638|Reference|class|com.Cmonster03.OreMod.Reference
+   @|init\ModArmor.java|639|645|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+   @|init\ModArmor.java|689|700|SoundEvents|class|net.minecraft.init.SoundEvents
+   @|init\ModArmor.java|701|722|ITEM_ARMOR_EQUIP_IRON|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_IRON
+   @|init\ModArmor.java|746|759|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|init\ModArmor.java|746|759|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+   @|init\ModArmor.java|760|773|opal_material|field|init.ModArmor|opal_material|
+   @|init\ModArmor.java|776|786|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|init\ModArmor.java|787|803|addArmorMaterial|method|net.minecraftforge.common.util.EnumHelper|addArmorMaterial|(Ljava/lang/String;Ljava/lang/String;I[IILnet/minecraft/util/SoundEvent;F)Lnet/minecraft/item/ItemArmor$ArmorMaterial;
+   @|init\ModArmor.java|812|821|Reference|class|com.Cmonster03.OreMod.Reference
+   @|init\ModArmor.java|822|828|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+   @|init\ModArmor.java|869|880|SoundEvents|class|net.minecraft.init.SoundEvents
+   @|init\ModArmor.java|881|905|ITEM_ARMOR_EQUIP_DIAMOND|field|net.minecraft.init.SoundEvents|ITEM_ARMOR_EQUIP_DIAMOND
+   @|init\ModArmor.java|931|940|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|931|940|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|941|955|lithium_helmet|field|init.ModArmor|lithium_helmet|
+   @|init\ModArmor.java|972|981|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|972|981|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|982|1000|lithium_chestplate|field|init.ModArmor|lithium_chestplate|
+   @|init\ModArmor.java|1017|1026|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1017|1026|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1027|1043|lithium_leggings|field|init.ModArmor|lithium_leggings|
+   @|init\ModArmor.java|1060|1069|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1060|1069|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1070|1083|lithium_boots|field|init.ModArmor|lithium_boots|
+   @|init\ModArmor.java|1100|1109|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1100|1109|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1110|1121|opal_helmet|field|init.ModArmor|opal_helmet|
+   @|init\ModArmor.java|1138|1147|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1138|1147|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1148|1163|opal_chestplate|field|init.ModArmor|opal_chestplate|
+   @|init\ModArmor.java|1180|1189|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1180|1189|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1190|1203|opal_leggings|field|init.ModArmor|opal_leggings|
+   @|init\ModArmor.java|1220|1229|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1220|1229|ItemArmor|class|net.minecraft.item.ItemArmor
+   @|init\ModArmor.java|1230|1240|opal_boots|field|init.ModArmor|opal_boots|
+   Method Start: init()V
+      @|init\ModArmor.java|1264|1268|init|method|init.ModArmor|init|()V
+      @|init\ModArmor.java|1275|1289|lithium_helmet|field|init.ModArmor|lithium_helmet
+      @|init\ModArmor.java|1296|1308|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1309|1325|lithium_material|field|init.ModArmor|lithium_material
+      @|init\ModArmor.java|1330|1349|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1350|1354|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+      @|init\ModArmor.java|1377|1395|lithium_chestplate|field|init.ModArmor|lithium_chestplate
+      @|init\ModArmor.java|1402|1414|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1415|1431|lithium_material|field|init.ModArmor|lithium_material
+      @|init\ModArmor.java|1436|1455|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1456|1461|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+      @|init\ModArmor.java|1488|1504|lithium_leggings|field|init.ModArmor|lithium_leggings
+      @|init\ModArmor.java|1511|1523|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1524|1540|lithium_material|field|init.ModArmor|lithium_material
+      @|init\ModArmor.java|1545|1564|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1565|1569|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|init\ModArmor.java|1594|1607|lithium_boots|field|init.ModArmor|lithium_boots
+      @|init\ModArmor.java|1614|1626|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1627|1643|lithium_material|field|init.ModArmor|lithium_material
+      @|init\ModArmor.java|1648|1667|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1668|1672|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+      @|init\ModArmor.java|1694|1705|opal_helmet|field|init.ModArmor|opal_helmet
+      @|init\ModArmor.java|1712|1724|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1725|1738|opal_material|field|init.ModArmor|opal_material
+      @|init\ModArmor.java|1743|1762|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1763|1767|HEAD|field|net.minecraft.inventory.EntityEquipmentSlot|HEAD
+      @|init\ModArmor.java|1787|1802|opal_chestplate|field|init.ModArmor|opal_chestplate
+      @|init\ModArmor.java|1809|1821|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1822|1835|opal_material|field|init.ModArmor|opal_material
+      @|init\ModArmor.java|1840|1859|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1860|1865|CHEST|field|net.minecraft.inventory.EntityEquipmentSlot|CHEST
+      @|init\ModArmor.java|1889|1902|opal_leggings|field|init.ModArmor|opal_leggings
+      @|init\ModArmor.java|1909|1921|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|1922|1935|opal_material|field|init.ModArmor|opal_material
+      @|init\ModArmor.java|1940|1959|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|1960|1964|LEGS|field|net.minecraft.inventory.EntityEquipmentSlot|LEGS
+      @|init\ModArmor.java|1986|1996|opal_boots|field|init.ModArmor|opal_boots
+      @|init\ModArmor.java|2003|2015|ItemModArmor|class|items.ItemModArmor
+      @|init\ModArmor.java|2016|2029|opal_material|field|init.ModArmor|opal_material
+      @|init\ModArmor.java|2034|2053|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|init\ModArmor.java|2054|2058|FEET|field|net.minecraft.inventory.EntityEquipmentSlot|FEET
+   Method End: init()V
+   Method Start: register()V
+      @|init\ModArmor.java|2103|2111|register|method|init.ModArmor|register|()V
+      @|init\ModArmor.java|2117|2129|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2130|2138|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2139|2153|lithium_helmet|field|init.ModArmor|lithium_helmet
+      @|init\ModArmor.java|2158|2170|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2171|2179|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2180|2198|lithium_chestplate|field|init.ModArmor|lithium_chestplate
+      @|init\ModArmor.java|2203|2215|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2216|2224|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2225|2241|lithium_leggings|field|init.ModArmor|lithium_leggings
+      @|init\ModArmor.java|2246|2258|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2259|2267|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2268|2281|lithium_boots|field|init.ModArmor|lithium_boots
+      @|init\ModArmor.java|2286|2298|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2299|2307|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2308|2319|opal_helmet|field|init.ModArmor|opal_helmet
+      @|init\ModArmor.java|2324|2336|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2337|2345|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2346|2361|opal_chestplate|field|init.ModArmor|opal_chestplate
+      @|init\ModArmor.java|2366|2378|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2379|2387|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2388|2401|opal_leggings|field|init.ModArmor|opal_leggings
+      @|init\ModArmor.java|2406|2418|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModArmor.java|2419|2427|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModArmor.java|2428|2438|opal_boots|field|init.ModArmor|opal_boots
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|init\ModArmor.java|2469|2484|registerRenders|method|init.ModArmor|registerRenders|()V
+      @|init\ModArmor.java|2491|2505|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2507|2521|lithium_helmet|field|init.ModArmor|lithium_helmet
+      @|init\ModArmor.java|2526|2540|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2542|2560|lithium_chestplate|field|init.ModArmor|lithium_chestplate
+      @|init\ModArmor.java|2565|2579|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2581|2597|lithium_leggings|field|init.ModArmor|lithium_leggings
+      @|init\ModArmor.java|2602|2616|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2618|2631|lithium_boots|field|init.ModArmor|lithium_boots
+      @|init\ModArmor.java|2636|2650|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2652|2663|opal_helmet|field|init.ModArmor|opal_helmet
+      @|init\ModArmor.java|2668|2682|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2684|2699|opal_chestplate|field|init.ModArmor|opal_chestplate
+      @|init\ModArmor.java|2704|2718|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2720|2733|opal_leggings|field|init.ModArmor|opal_leggings
+      @|init\ModArmor.java|2738|2752|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2754|2764|opal_boots|field|init.ModArmor|opal_boots
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2816|2820|item|param|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModArmor.java|2796|2810|registerRender|method|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModArmor.java|2811|2815|Item|class|net.minecraft.item.Item
+      @|init\ModArmor.java|2826|2835|Minecraft|class|net.minecraft.client.Minecraft
+      @|init\ModArmor.java|2836|2848|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|init\ModArmor.java|2851|2864|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|init\ModArmor.java|2867|2885|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|init\ModArmor.java|2888|2896|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|init\ModArmor.java|2897|2901|item|param|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModArmor.java|2910|2931|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|init\ModArmor.java|2932|2936|item|param|init.ModArmor|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModArmor.java|2937|2952|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : init.ModArmor
+endProcessing "init\ModArmor.java"
+
+startProcessing "init\ModBlocks.java" md5: bb13873b17f2447fc50e685cf1879955
+Cache Hit!
+@|init\ModBlocks.java|8|12|init|package|init|(file)
+Class Start: init.ModBlocks
+   @|init\ModBlocks.java|532|541|ModBlocks|class|init.ModBlocks
+   @|init\ModBlocks.java|561|566|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|561|566|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|567|580|lithium_block|field|init.ModBlocks|lithium_block|
+   @|init\ModBlocks.java|597|602|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|597|602|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|603|614|lithium_ore|field|init.ModBlocks|lithium_ore|
+   @|init\ModBlocks.java|631|636|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|631|636|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|637|655|hydrogen_extractor|field|init.ModBlocks|hydrogen_extractor|
+   @|init\ModBlocks.java|672|677|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|672|677|Block|class|net.minecraft.block.Block
+   @|init\ModBlocks.java|678|686|opal_ore|field|init.ModBlocks|opal_ore|
+   Method Start: init()V
+      @|init\ModBlocks.java|709|713|init|method|init.ModBlocks|init|()V
+      @|init\ModBlocks.java|720|733|lithium_block|field|init.ModBlocks|lithium_block
+      @|init\ModBlocks.java|740|758|BlockLithium_block|class|com.Cmonster03.OreMod.blocks.BlockLithium_block
+      @|init\ModBlocks.java|764|775|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|init\ModBlocks.java|782|798|BlockLithium_ore|class|com.Cmonster03.OreMod.blocks.BlockLithium_ore
+      @|init\ModBlocks.java|804|812|opal_ore|field|init.ModBlocks|opal_ore
+      @|init\ModBlocks.java|819|832|BlockOpal_ore|class|com.Cmonster03.OreMod.blocks.BlockOpal_ore
+   Method End: init()V
+   Method Start: register()V
+      @|init\ModBlocks.java|860|868|register|method|init.ModBlocks|register|()V
+      @|init\ModBlocks.java|875|888|registerBlock|method|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|889|902|lithium_block|field|init.ModBlocks|lithium_block
+      @|init\ModBlocks.java|907|920|registerBlock|method|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|921|932|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|init\ModBlocks.java|937|950|registerBlock|method|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|951|959|opal_ore|field|init.ModBlocks|opal_ore
+   Method End: register()V
+   Method Start: registerBlock(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1010|1015|block|param|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|990|1003|registerBlock|method|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1004|1009|Block|class|net.minecraft.block.Block
+      @|init\ModBlocks.java|1021|1033|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModBlocks.java|1034|1042|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModBlocks.java|1043|1056|lithium_block|field|init.ModBlocks|lithium_block
+      @|init\ModBlocks.java|1061|1073|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModBlocks.java|1074|1082|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModBlocks.java|1083|1094|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|init\ModBlocks.java|1099|1111|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModBlocks.java|1112|1120|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModBlocks.java|1121|1129|opal_ore|field|init.ModBlocks|opal_ore
+      @|init\ModBlocks.java|1134|1143|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|init\ModBlocks.java|1155|1164|ItemBlock|class|net.minecraft.item.ItemBlock
+      @|init\ModBlocks.java|1165|1170|block|param|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|1180|1195|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|init\ModBlocks.java|1196|1201|block|param|init.ModBlocks|registerBlock|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|1202|1217|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|init\ModBlocks.java|1224|1236|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModBlocks.java|1237|1245|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+   Method End: registerBlock(Lnet/minecraft/block/Block;)V
+   Method Start: registerRenders()V
+      @|init\ModBlocks.java|1277|1292|registerRenders|method|init.ModBlocks|registerRenders|()V
+      @|init\ModBlocks.java|1299|1313|registerRender|method|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1315|1328|lithium_block|field|init.ModBlocks|lithium_block
+      @|init\ModBlocks.java|1333|1347|registerRender|method|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1349|1360|lithium_ore|field|init.ModBlocks|lithium_ore
+      @|init\ModBlocks.java|1365|1379|registerRender|method|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1381|1389|opal_ore|field|init.ModBlocks|opal_ore
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1438|1443|block|param|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|1417|1431|registerRender|method|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V
+      @|init\ModBlocks.java|1432|1437|Block|class|net.minecraft.block.Block
+      @|init\ModBlocks.java|1448|1457|Minecraft|class|net.minecraft.client.Minecraft
+      @|init\ModBlocks.java|1458|1470|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|init\ModBlocks.java|1473|1486|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|init\ModBlocks.java|1489|1507|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|init\ModBlocks.java|1510|1518|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|init\ModBlocks.java|1519|1523|Item|class|net.minecraft.item.Item
+      @|init\ModBlocks.java|1524|1540|getItemFromBlock|method|net.minecraft.item.Item|getItemFromBlock|(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;
+      @|init\ModBlocks.java|1541|1546|block|param|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|1556|1577|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|init\ModBlocks.java|1578|1583|block|param|init.ModBlocks|registerRender|(Lnet/minecraft/block/Block;)V|block|0
+      @|init\ModBlocks.java|1584|1599|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/block/Block;)V
+Class End  : init.ModBlocks
+endProcessing "init\ModBlocks.java"
+
+startProcessing "init\ModItems.java" md5: 4c5cea967cf8467404eb27183a5343e4
+Cache Hit!
+@|init\ModItems.java|8|12|init|package|init|(file)
+Class Start: init.ModItems
+   @|init\ModItems.java|466|474|ModItems|class|init.ModItems
+   @|init\ModItems.java|494|498|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|494|498|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|499|512|lithium_ingot|field|init.ModItems|lithium_ingot|
+   @|init\ModItems.java|529|533|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|529|533|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|534|547|lithium_apple|field|init.ModItems|lithium_apple|
+   @|init\ModItems.java|564|568|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|564|568|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|569|584|beryllium_ingot|field|init.ModItems|beryllium_ingot|
+   @|init\ModItems.java|601|605|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|601|605|Item|class|net.minecraft.item.Item
+   @|init\ModItems.java|606|610|opal|field|init.ModItems|opal|
+   Method Start: init()V
+      @|init\ModItems.java|633|637|init|method|init.ModItems|init|()V
+      @|init\ModItems.java|644|657|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|init\ModItems.java|664|681|ItemLithium_ingot|class|items.ItemLithium_ingot
+      @|init\ModItems.java|687|702|beryllium_ingot|field|init.ModItems|beryllium_ingot
+      @|init\ModItems.java|709|728|ItemBeryllium_ingot|class|items.ItemBeryllium_ingot
+      @|init\ModItems.java|734|747|lithium_apple|field|init.ModItems|lithium_apple
+      @|init\ModItems.java|754|765|ItemModFood|class|items.ItemModFood
+      @|init\ModItems.java|800|812|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|init\ModItems.java|813|819|Potion|class|net.minecraft.potion.Potion
+      @|init\ModItems.java|820|833|getPotionById|method|net.minecraft.potion.Potion|getPotionById|(I)Lnet/minecraft/potion/Potion;
+      @|init\ModItems.java|853|865|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|init\ModItems.java|866|872|Potion|class|net.minecraft.potion.Potion
+      @|init\ModItems.java|873|886|getPotionById|method|net.minecraft.potion.Potion|getPotionById|(I)Lnet/minecraft/potion/Potion;
+      @|init\ModItems.java|906|910|opal|field|init.ModItems|opal
+      @|init\ModItems.java|917|925|ItemOpal|class|items.ItemOpal
+   Method End: init()V
+   Method Start: register()V
+      @|init\ModItems.java|953|961|register|method|init.ModItems|register|()V
+      @|init\ModItems.java|968|980|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModItems.java|981|989|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModItems.java|990|1003|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|init\ModItems.java|1008|1020|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModItems.java|1021|1029|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModItems.java|1030|1043|lithium_apple|field|init.ModItems|lithium_apple
+      @|init\ModItems.java|1048|1060|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModItems.java|1061|1069|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModItems.java|1070|1085|beryllium_ingot|field|init.ModItems|beryllium_ingot
+      @|init\ModItems.java|1090|1102|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModItems.java|1103|1111|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModItems.java|1112|1116|opal|field|init.ModItems|opal
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|init\ModItems.java|1144|1159|registerRenders|method|init.ModItems|registerRenders|()V
+      @|init\ModItems.java|1166|1180|registerRender|method|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1182|1195|lithium_ingot|field|init.ModItems|lithium_ingot
+      @|init\ModItems.java|1200|1214|registerRender|method|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1216|1229|lithium_apple|field|init.ModItems|lithium_apple
+      @|init\ModItems.java|1234|1248|registerRender|method|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1250|1265|beryllium_ingot|field|init.ModItems|beryllium_ingot
+      @|init\ModItems.java|1270|1284|registerRender|method|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1286|1290|opal|field|init.ModItems|opal
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1339|1343|item|param|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModItems.java|1319|1333|registerRender|method|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModItems.java|1334|1338|Item|class|net.minecraft.item.Item
+      @|init\ModItems.java|1349|1358|Minecraft|class|net.minecraft.client.Minecraft
+      @|init\ModItems.java|1359|1371|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|init\ModItems.java|1374|1387|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|init\ModItems.java|1390|1408|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|init\ModItems.java|1411|1419|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|init\ModItems.java|1420|1424|item|param|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModItems.java|1433|1454|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|init\ModItems.java|1455|1459|item|param|init.ModItems|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModItems.java|1460|1475|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : init.ModItems
+endProcessing "init\ModItems.java"
+
+startProcessing "init\ModTools.java" md5: 166c39641f9fe1f9226c46baf8e75fce
+@|init\ModTools.java|8|12|init|package|init|(file)
+Class Start: init.ModTools
+   @|init\ModTools.java|685|693|ModTools|class|init.ModTools
+   @|init\ModTools.java|719|731|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|init\ModTools.java|719|731|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|init\ModTools.java|732|748|lithium_material|field|init.ModTools|lithium_material|
+   @|init\ModTools.java|751|761|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|init\ModTools.java|762|777|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|init\ModTools.java|778|787|Reference|class|com.Cmonster03.OreMod.Reference
+   @|init\ModTools.java|788|794|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+   @|init\ModTools.java|855|867|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|init\ModTools.java|855|867|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+   @|init\ModTools.java|868|881|opal_material|field|init.ModTools|opal_material|
+   @|init\ModTools.java|884|894|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|init\ModTools.java|895|910|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+   @|init\ModTools.java|911|920|Reference|class|com.Cmonster03.OreMod.Reference
+   @|init\ModTools.java|921|927|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+   @|init\ModTools.java|981|992|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|init\ModTools.java|981|992|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|init\ModTools.java|993|1008|lithium_pickaxe|field|init.ModTools|lithium_pickaxe|
+   @|init\ModTools.java|1025|1035|ItemModAxe|class|items.ItemModAxe
+   @|init\ModTools.java|1025|1035|ItemModAxe|class|items.ItemModAxe
+   @|init\ModTools.java|1036|1047|lithium_axe|field|init.ModTools|lithium_axe|
+   @|init\ModTools.java|1064|1071|ItemHoe|class|net.minecraft.item.ItemHoe
+   @|init\ModTools.java|1064|1071|ItemHoe|class|net.minecraft.item.ItemHoe
+   @|init\ModTools.java|1072|1083|lithium_hoe|field|init.ModTools|lithium_hoe|
+   @|init\ModTools.java|1100|1109|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|init\ModTools.java|1100|1109|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|init\ModTools.java|1110|1124|lithium_shovel|field|init.ModTools|lithium_shovel|
+   @|init\ModTools.java|1141|1150|ItemSword|class|net.minecraft.item.ItemSword
+   @|init\ModTools.java|1141|1150|ItemSword|class|net.minecraft.item.ItemSword
+   @|init\ModTools.java|1151|1164|lithium_sword|field|init.ModTools|lithium_sword|
+   @|init\ModTools.java|1181|1192|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|init\ModTools.java|1181|1192|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   @|init\ModTools.java|1193|1205|opal_pickaxe|field|init.ModTools|opal_pickaxe|
+   @|init\ModTools.java|1222|1232|ItemModAxe|class|items.ItemModAxe
+   @|init\ModTools.java|1222|1232|ItemModAxe|class|items.ItemModAxe
+   @|init\ModTools.java|1233|1241|opal_axe|field|init.ModTools|opal_axe|
+   @|init\ModTools.java|1258|1265|ItemHoe|class|net.minecraft.item.ItemHoe
+   @|init\ModTools.java|1258|1265|ItemHoe|class|net.minecraft.item.ItemHoe
+   @|init\ModTools.java|1266|1274|opal_hoe|field|init.ModTools|opal_hoe|
+   @|init\ModTools.java|1291|1300|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|init\ModTools.java|1291|1300|ItemSpade|class|net.minecraft.item.ItemSpade
+   @|init\ModTools.java|1301|1312|opal_shovel|field|init.ModTools|opal_shovel|
+   @|init\ModTools.java|1329|1338|ItemSword|class|net.minecraft.item.ItemSword
+   @|init\ModTools.java|1329|1338|ItemSword|class|net.minecraft.item.ItemSword
+   @|init\ModTools.java|1339|1349|opal_sword|field|init.ModTools|opal_sword|
+   Method Start: init()V
+      @|init\ModTools.java|1373|1377|init|method|init.ModTools|init|()V
+      @|init\ModTools.java|1384|1399|lithium_pickaxe|field|init.ModTools|lithium_pickaxe
+      @|init\ModTools.java|1406|1420|ItemModPickaxe|class|items.ItemModPickaxe
+      @|init\ModTools.java|1421|1437|lithium_material|field|init.ModTools|lithium_material
+      @|init\ModTools.java|1461|1472|lithium_axe|field|init.ModTools|lithium_axe
+      @|init\ModTools.java|1479|1489|ItemModAxe|class|items.ItemModAxe
+      @|init\ModTools.java|1490|1506|lithium_material|field|init.ModTools|lithium_material
+      @|init\ModTools.java|1526|1537|lithium_hoe|field|init.ModTools|lithium_hoe
+      @|init\ModTools.java|1544|1554|ItemModHoe|class|items.ItemModHoe
+      @|init\ModTools.java|1555|1571|lithium_material|field|init.ModTools|lithium_material
+      @|init\ModTools.java|1591|1605|lithium_shovel|field|init.ModTools|lithium_shovel
+      @|init\ModTools.java|1612|1625|ItemModShovel|class|items.ItemModShovel
+      @|init\ModTools.java|1626|1642|lithium_material|field|init.ModTools|lithium_material
+      @|init\ModTools.java|1665|1678|lithium_sword|field|init.ModTools|lithium_sword
+      @|init\ModTools.java|1685|1697|ItemModSword|class|items.ItemModSword
+      @|init\ModTools.java|1698|1714|lithium_material|field|init.ModTools|lithium_material
+      @|init\ModTools.java|1736|1748|opal_pickaxe|field|init.ModTools|opal_pickaxe
+      @|init\ModTools.java|1755|1769|ItemModPickaxe|class|items.ItemModPickaxe
+      @|init\ModTools.java|1770|1783|opal_material|field|init.ModTools|opal_material
+      @|init\ModTools.java|1804|1812|opal_axe|field|init.ModTools|opal_axe
+      @|init\ModTools.java|1819|1829|ItemModAxe|class|items.ItemModAxe
+      @|init\ModTools.java|1830|1843|opal_material|field|init.ModTools|opal_material
+      @|init\ModTools.java|1860|1868|opal_hoe|field|init.ModTools|opal_hoe
+      @|init\ModTools.java|1875|1885|ItemModHoe|class|items.ItemModHoe
+      @|init\ModTools.java|1886|1899|opal_material|field|init.ModTools|opal_material
+      @|init\ModTools.java|1916|1927|opal_shovel|field|init.ModTools|opal_shovel
+      @|init\ModTools.java|1934|1947|ItemModShovel|class|items.ItemModShovel
+      @|init\ModTools.java|1948|1961|opal_material|field|init.ModTools|opal_material
+      @|init\ModTools.java|1981|1991|opal_sword|field|init.ModTools|opal_sword
+      @|init\ModTools.java|1998|2010|ItemModSword|class|items.ItemModSword
+      @|init\ModTools.java|2011|2024|opal_material|field|init.ModTools|opal_material
+   Method End: init()V
+   Method Start: register()V
+      @|init\ModTools.java|2069|2077|register|method|init.ModTools|register|()V
+      @|init\ModTools.java|2084|2096|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2097|2105|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2106|2121|lithium_pickaxe|field|init.ModTools|lithium_pickaxe
+      @|init\ModTools.java|2126|2138|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2139|2147|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2148|2159|lithium_axe|field|init.ModTools|lithium_axe
+      @|init\ModTools.java|2164|2176|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2177|2185|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2186|2197|lithium_hoe|field|init.ModTools|lithium_hoe
+      @|init\ModTools.java|2202|2214|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2215|2223|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2224|2238|lithium_shovel|field|init.ModTools|lithium_shovel
+      @|init\ModTools.java|2243|2255|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2256|2264|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2265|2278|lithium_sword|field|init.ModTools|lithium_sword
+      @|init\ModTools.java|2283|2295|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2296|2304|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2305|2317|opal_pickaxe|field|init.ModTools|opal_pickaxe
+      @|init\ModTools.java|2322|2334|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2335|2343|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2344|2352|opal_axe|field|init.ModTools|opal_axe
+      @|init\ModTools.java|2357|2369|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2370|2378|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2379|2387|opal_hoe|field|init.ModTools|opal_hoe
+      @|init\ModTools.java|2392|2404|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2405|2413|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2414|2425|opal_shovel|field|init.ModTools|opal_shovel
+      @|init\ModTools.java|2430|2442|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|init\ModTools.java|2443|2451|register|method|net.minecraftforge.fml.common.registry.GameRegistry|register|(Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|init\ModTools.java|2452|2462|opal_sword|field|init.ModTools|opal_sword
+   Method End: register()V
+   Method Start: registerRenders()V
+      @|init\ModTools.java|2490|2505|registerRenders|method|init.ModTools|registerRenders|()V
+      @|init\ModTools.java|2511|2525|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2527|2542|lithium_pickaxe|field|init.ModTools|lithium_pickaxe
+      @|init\ModTools.java|2547|2561|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2563|2574|lithium_axe|field|init.ModTools|lithium_axe
+      @|init\ModTools.java|2579|2593|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2595|2606|lithium_hoe|field|init.ModTools|lithium_hoe
+      @|init\ModTools.java|2611|2625|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2627|2641|lithium_shovel|field|init.ModTools|lithium_shovel
+      @|init\ModTools.java|2646|2660|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2662|2675|lithium_sword|field|init.ModTools|lithium_sword
+      @|init\ModTools.java|2680|2694|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2696|2708|opal_pickaxe|field|init.ModTools|opal_pickaxe
+      @|init\ModTools.java|2713|2727|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2729|2737|opal_axe|field|init.ModTools|opal_axe
+      @|init\ModTools.java|2742|2756|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2758|2766|opal_hoe|field|init.ModTools|opal_hoe
+      @|init\ModTools.java|2771|2785|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2787|2798|opal_shovel|field|init.ModTools|opal_shovel
+      @|init\ModTools.java|2803|2817|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2819|2829|opal_sword|field|init.ModTools|opal_sword
+   Method End: registerRenders()V
+   Method Start: registerRender(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2878|2882|item|param|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModTools.java|2858|2872|registerRender|method|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V
+      @|init\ModTools.java|2873|2877|Item|class|net.minecraft.item.Item
+      @|init\ModTools.java|2888|2897|Minecraft|class|net.minecraft.client.Minecraft
+      @|init\ModTools.java|2898|2910|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|init\ModTools.java|2913|2926|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|init\ModTools.java|2929|2947|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|init\ModTools.java|2950|2958|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|init\ModTools.java|2959|2963|item|param|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModTools.java|2972|2993|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|init\ModTools.java|2994|2998|item|param|init.ModTools|registerRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|init\ModTools.java|2999|3014|getRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+   Method End: registerRender(Lnet/minecraft/item/Item;)V
+Class End  : init.ModTools
+endProcessing "init\ModTools.java"
+
+startProcessing "items\ItemBeryllium_ingot.java" md5: 5b965e214c2b9cd68d5c7e3136c583d7
+Cache Hit!
+@|items\ItemBeryllium_ingot.java|8|13|items|package|items|(file)
+Class Start: items.ItemBeryllium_ingot
+   @|items\ItemBeryllium_ingot.java|158|177|ItemBeryllium_ingot|class|items.ItemBeryllium_ingot
+   @|items\ItemBeryllium_ingot.java|186|190|Item|class|net.minecraft.item.Item
+   Method Start: ItemBeryllium_ingot()V
+      @|items\ItemBeryllium_ingot.java|202|221|ItemBeryllium_ingot|method|items.ItemBeryllium_ingot|ItemBeryllium_ingot|()V
+      @|items\ItemBeryllium_ingot.java|228|246|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemBeryllium_ingot.java|247|268|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemBeryllium_ingot.java|269|284|BERYLLIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|BERYLLIUM_INGOT
+      @|items\ItemBeryllium_ingot.java|285|303|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|items\ItemBeryllium_ingot.java|310|325|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|items\ItemBeryllium_ingot.java|326|347|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemBeryllium_ingot.java|348|363|BERYLLIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|BERYLLIUM_INGOT
+      @|items\ItemBeryllium_ingot.java|364|379|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModItems|getRegistryName|()Ljava/lang/String;
+      @|items\ItemBeryllium_ingot.java|386|400|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|items\ItemBeryllium_ingot.java|401|412|TabElements|class|com.Cmonster03.OreMod.creativetabs.TabElements
+      @|items\ItemBeryllium_ingot.java|413|425|tab_elements|field|com.Cmonster03.OreMod.creativetabs.TabElements|tab_elements
+   Method End: ItemBeryllium_ingot()V
+Class End  : items.ItemBeryllium_ingot
+endProcessing "items\ItemBeryllium_ingot.java"
+
+startProcessing "items\ItemLithium_ingot.java" md5: 76e205cc7732f0770026ed18da143e33
+Cache Hit!
+@|items\ItemLithium_ingot.java|8|13|items|package|items|(file)
+Class Start: items.ItemLithium_ingot
+   @|items\ItemLithium_ingot.java|195|212|ItemLithium_ingot|class|items.ItemLithium_ingot
+   @|items\ItemLithium_ingot.java|221|225|Item|class|net.minecraft.item.Item
+   Method Start: ItemLithium_ingot()V
+      @|items\ItemLithium_ingot.java|237|254|ItemLithium_ingot|method|items.ItemLithium_ingot|ItemLithium_ingot|()V
+      @|items\ItemLithium_ingot.java|261|279|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemLithium_ingot.java|280|301|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemLithium_ingot.java|302|315|LITHIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|LITHIUM_INGOT
+      @|items\ItemLithium_ingot.java|316|334|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|items\ItemLithium_ingot.java|341|356|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|items\ItemLithium_ingot.java|357|378|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemLithium_ingot.java|379|392|LITHIUM_INGOT|field|com.Cmonster03.OreMod.Reference.OreModItems|LITHIUM_INGOT
+      @|items\ItemLithium_ingot.java|393|408|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModItems|getRegistryName|()Ljava/lang/String;
+      @|items\ItemLithium_ingot.java|415|429|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|items\ItemLithium_ingot.java|430|441|TabElements|class|com.Cmonster03.OreMod.creativetabs.TabElements
+      @|items\ItemLithium_ingot.java|442|454|tab_elements|field|com.Cmonster03.OreMod.creativetabs.TabElements|tab_elements
+   Method End: ItemLithium_ingot()V
+Class End  : items.ItemLithium_ingot
+endProcessing "items\ItemLithium_ingot.java"
+
+startProcessing "items\ItemModArmor.java" md5: 0fbc931384118e772b64d2409e712166
+Cache Hit!
+@|items\ItemModArmor.java|8|13|items|package|items|(file)
+Class Start: items.ItemModArmor
+   @|items\ItemModArmor.java|204|216|ItemModArmor|class|items.ItemModArmor
+   @|items\ItemModArmor.java|225|234|ItemArmor|class|net.minecraft.item.ItemArmor
+   Method Start: ItemModArmor(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|items\ItemModArmor.java|273|283|materialIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|materialIn|0
+      @|items\ItemModArmor.java|289|302|renderIndexIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|renderIndexIn|1
+      @|items\ItemModArmor.java|324|339|equipmentSlotIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|equipmentSlotIn|2
+      @|items\ItemModArmor.java|348|363|unlocalizedName|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|unlocalizedName|3
+      @|items\ItemModArmor.java|246|258|ItemModArmor|method|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+      @|items\ItemModArmor.java|259|272|ArmorMaterial|class|net.minecraft.item.ItemArmor.ArmorMaterial
+      @|items\ItemModArmor.java|304|323|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot
+      @|items\ItemModArmor.java|341|347|String|class|java.lang.String
+      @|items\ItemModArmor.java|375|385|materialIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|materialIn|0
+      @|items\ItemModArmor.java|387|400|renderIndexIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|renderIndexIn|1
+      @|items\ItemModArmor.java|402|417|equipmentSlotIn|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|equipmentSlotIn|2
+      @|items\ItemModArmor.java|427|445|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModArmor.java|446|461|unlocalizedName|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|unlocalizedName|3
+      @|items\ItemModArmor.java|471|486|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModArmor.java|491|507|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModArmor.java|508|517|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModArmor.java|518|524|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModArmor.java|526|541|unlocalizedName|param|items.ItemModArmor|ItemModArmor|(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V|unlocalizedName|3
+   Method End: ItemModArmor(Lnet/minecraft/item/ItemArmor$ArmorMaterial;ILnet/minecraft/inventory/EntityEquipmentSlot;Ljava/lang/String;)V
+Class End  : items.ItemModArmor
+endProcessing "items\ItemModArmor.java"
+
+startProcessing "items\ItemModAxe.java" md5: a7faf912f7f1ff5b5a8f036284de2eff
+Cache Hit!
+@|items\ItemModAxe.java|8|13|items|package|items|(file)
+Class Start: items.ItemModAxe
+   @|items\ItemModAxe.java|640|650|ItemModAxe|class|items.ItemModAxe
+   @|items\ItemModAxe.java|659|667|ItemTool|class|net.minecraft.item.ItemTool
+   @|items\ItemModAxe.java|701|706|Block|class|net.minecraft.block.Block
+   @|items\ItemModAxe.java|697|700|Set|class|java.util.Set
+   @|items\ItemModAxe.java|697|700|Set|class|java.util.Set
+   @|items\ItemModAxe.java|701|706|Block|class|net.minecraft.block.Block
+   @|items\ItemModAxe.java|708|720|EFFECTIVE_ON|field|items.ItemModAxe|EFFECTIVE_ON|
+   @|items\ItemModAxe.java|723|727|Sets|class|com.google.common.collect.Sets
+   @|items\ItemModAxe.java|728|738|newHashSet|method|com.google.common.collect.Sets|newHashSet|([Ljava/lang/Object;)Ljava/util/HashSet;
+   @|items\ItemModAxe.java|743|748|Block|class|net.minecraft.block.Block
+   @|items\ItemModAxe.java|752|758|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|759|765|PLANKS|field|net.minecraft.init.Blocks|PLANKS
+   @|items\ItemModAxe.java|767|773|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|774|783|BOOKSHELF|field|net.minecraft.init.Blocks|BOOKSHELF
+   @|items\ItemModAxe.java|785|791|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|792|795|LOG|field|net.minecraft.init.Blocks|LOG
+   @|items\ItemModAxe.java|797|803|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|804|808|LOG2|field|net.minecraft.init.Blocks|LOG2
+   @|items\ItemModAxe.java|810|816|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|817|822|CHEST|field|net.minecraft.init.Blocks|CHEST
+   @|items\ItemModAxe.java|824|830|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|831|838|PUMPKIN|field|net.minecraft.init.Blocks|PUMPKIN
+   @|items\ItemModAxe.java|840|846|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|847|858|LIT_PUMPKIN|field|net.minecraft.init.Blocks|LIT_PUMPKIN
+   @|items\ItemModAxe.java|860|866|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|867|878|MELON_BLOCK|field|net.minecraft.init.Blocks|MELON_BLOCK
+   @|items\ItemModAxe.java|880|886|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|887|893|LADDER|field|net.minecraft.init.Blocks|LADDER
+   @|items\ItemModAxe.java|895|901|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|902|915|WOODEN_BUTTON|field|net.minecraft.init.Blocks|WOODEN_BUTTON
+   @|items\ItemModAxe.java|917|923|Blocks|class|net.minecraft.init.Blocks
+   @|items\ItemModAxe.java|924|945|WOODEN_PRESSURE_PLATE|field|net.minecraft.init.Blocks|WOODEN_PRESSURE_PLATE
+   @|items\ItemModAxe.java|982|996|ATTACK_DAMAGES|field|items.ItemModAxe|ATTACK_DAMAGES|
+   @|items\ItemModAxe.java|1076|1089|ATTACK_SPEEDS|field|items.ItemModAxe|ATTACK_SPEEDS|
+   Method Start: ItemModAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModAxe.java|1176|1184|material|param|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModAxe.java|1193|1208|unlocalizedName|param|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModAxe.java|1152|1162|ItemModAxe|method|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModAxe.java|1163|1175|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|items\ItemModAxe.java|1186|1192|String|class|java.lang.String
+      @|items\ItemModAxe.java|1220|1228|material|param|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModAxe.java|1230|1242|EFFECTIVE_ON|field|items.ItemModAxe|EFFECTIVE_ON
+      @|items\ItemModAxe.java|1252|1270|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModAxe.java|1271|1286|unlocalizedName|param|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModAxe.java|1296|1311|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModAxe.java|1316|1332|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModAxe.java|1333|1342|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModAxe.java|1343|1349|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModAxe.java|1351|1366|unlocalizedName|param|items.ItemModAxe|ItemModAxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+   Method End: ItemModAxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+   Method Start: getStrVsBlock(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      @|items\ItemModAxe.java|1416|1421|stack|param|items.ItemModAxe|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|stack|0
+      @|items\ItemModAxe.java|1435|1440|state|param|items.ItemModAxe|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|state|1
+      @|items\ItemModAxe.java|1392|1405|getStrVsBlock|method|net.minecraft.item.Item|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      @|items\ItemModAxe.java|1406|1415|ItemStack|class|net.minecraft.item.ItemStack
+      @|items\ItemModAxe.java|1423|1434|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|items\ItemModAxe.java|1456|1464|Material|class|net.minecraft.block.material.Material
+      @|items\ItemModAxe.java|1476|1481|state|param|items.ItemModAxe|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|state|1
+      @|items\ItemModAxe.java|1482|1493|getMaterial|method|net.minecraft.block.state.IBlockProperties|getMaterial|()Lnet/minecraft/block/material/Material;
+      @|items\ItemModAxe.java|1524|1532|Material|class|net.minecraft.block.material.Material
+      @|items\ItemModAxe.java|1533|1537|WOOD|field|net.minecraft.block.material.Material|WOOD
+      @|items\ItemModAxe.java|1553|1561|Material|class|net.minecraft.block.material.Material
+      @|items\ItemModAxe.java|1562|1568|PLANTS|field|net.minecraft.block.material.Material|PLANTS
+      @|items\ItemModAxe.java|1584|1592|Material|class|net.minecraft.block.material.Material
+      @|items\ItemModAxe.java|1593|1597|VINE|field|net.minecraft.block.material.Material|VINE
+      @|items\ItemModAxe.java|1606|1619|getStrVsBlock|method|net.minecraft.item.Item|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+      @|items\ItemModAxe.java|1620|1625|stack|param|items.ItemModAxe|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|stack|0
+      @|items\ItemModAxe.java|1627|1632|state|param|items.ItemModAxe|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F|state|1
+      @|items\ItemModAxe.java|1641|1667|efficiencyOnProperMaterial|field|net.minecraft.item.ItemTool|efficiencyOnProperMaterial
+   Method End: getStrVsBlock(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F
+Class End  : items.ItemModAxe
+endProcessing "items\ItemModAxe.java"
+
+startProcessing "items\ItemModFood.java" md5: 5714aa66cd2ee630e1c1f82728677907
+Cache Hit!
+@|items\ItemModFood.java|8|13|items|package|items|(file)
+Class Start: items.ItemModFood
+   @|items\ItemModFood.java|313|324|ItemModFood|class|items.ItemModFood
+   @|items\ItemModFood.java|333|341|ItemFood|class|net.minecraft.item.ItemFood
+   @|items\ItemModFood.java|354|366|PotionEffect|class|net.minecraft.potion.PotionEffect
+   @|items\ItemModFood.java|354|366|PotionEffect|class|net.minecraft.potion.PotionEffect
+   @|items\ItemModFood.java|369|376|effects|field|items.ItemModFood|effects|
+   Method Start: ItemModFood(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V
+      @|items\ItemModFood.java|407|422|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|428|434|amount|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|amount|1
+      @|items\ItemModFood.java|444|454|isWolfFood|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|isWolfFood|2
+      @|items\ItemModFood.java|471|484|potionEffects|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|potionEffects|3
+      @|items\ItemModFood.java|388|399|ItemModFood|method|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V
+      @|items\ItemModFood.java|400|406|String|class|java.lang.String
+      @|items\ItemModFood.java|456|468|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|items\ItemModFood.java|496|502|amount|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|amount|1
+      @|items\ItemModFood.java|504|514|isWolfFood|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|isWolfFood|2
+      @|items\ItemModFood.java|524|542|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModFood.java|543|558|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|568|583|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModFood.java|588|604|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModFood.java|605|614|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModFood.java|615|621|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModFood.java|623|638|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|649|656|effects|field|items.ItemModFood|effects
+      @|items\ItemModFood.java|659|672|potionEffects|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V|potionEffects|3
+   Method End: ItemModFood(Ljava/lang/String;IZ[Lnet/minecraft/potion/PotionEffect;)V
+   Method Start: ItemModFood(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V
+      @|items\ItemModFood.java|705|720|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|726|732|amount|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|amount|1
+      @|items\ItemModFood.java|740|750|saturation|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|saturation|2
+      @|items\ItemModFood.java|760|770|isWolfFood|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|isWolfFood|3
+      @|items\ItemModFood.java|787|800|potionEffects|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|potionEffects|4
+      @|items\ItemModFood.java|686|697|ItemModFood|method|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V
+      @|items\ItemModFood.java|698|704|String|class|java.lang.String
+      @|items\ItemModFood.java|772|784|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|items\ItemModFood.java|812|818|amount|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|amount|1
+      @|items\ItemModFood.java|820|830|saturation|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|saturation|2
+      @|items\ItemModFood.java|832|842|isWolfFood|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|isWolfFood|3
+      @|items\ItemModFood.java|852|870|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModFood.java|871|886|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|896|911|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModFood.java|916|932|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModFood.java|933|942|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModFood.java|943|949|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModFood.java|951|966|unlocalizedName|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|unlocalizedName|0
+      @|items\ItemModFood.java|977|984|effects|field|items.ItemModFood|effects
+      @|items\ItemModFood.java|987|1000|potionEffects|param|items.ItemModFood|ItemModFood|(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V|potionEffects|4
+   Method End: ItemModFood(Ljava/lang/String;IFZ[Lnet/minecraft/potion/PotionEffect;)V
+   Method Start: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|items\ItemModFood.java|1056|1061|stack|param|items.ItemModFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|stack|0
+      @|items\ItemModFood.java|1069|1076|worldIn|param|items.ItemModFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|worldIn|1
+      @|items\ItemModFood.java|1091|1097|player|param|items.ItemModFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|items\ItemModFood.java|1009|1017|Override|class|java.lang.Override
+      @|items\ItemModFood.java|1034|1045|onFoodEaten|method|net.minecraft.item.ItemFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+      @|items\ItemModFood.java|1046|1055|ItemStack|class|net.minecraft.item.ItemStack
+      @|items\ItemModFood.java|1063|1068|World|class|net.minecraft.world.World
+      @|items\ItemModFood.java|1078|1090|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|items\ItemModFood.java|1107|1119|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|items\ItemModFood.java|1129|1136|effects|field|items.ItemModFood|effects
+      @|items\ItemModFood.java|1143|1149|player|param|items.ItemModFood|onFoodEaten|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V|player|2
+      @|items\ItemModFood.java|1150|1165|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|items\ItemModFood.java|1170|1182|PotionEffect|class|net.minecraft.potion.PotionEffect
+   Method End: onFoodEaten(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;)V
+Class End  : items.ItemModFood
+endProcessing "items\ItemModFood.java"
+
+startProcessing "items\ItemModHoe.java" md5: 7251d105cc3389e923f8ceb91a7614ee
+Cache Hit!
+@|items\ItemModHoe.java|8|13|items|package|items|(file)
+Class Start: items.ItemModHoe
+   @|items\ItemModHoe.java|150|160|ItemModHoe|class|items.ItemModHoe
+   @|items\ItemModHoe.java|169|176|ItemHoe|class|net.minecraft.item.ItemHoe
+   Method Start: ItemModHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModHoe.java|211|219|material|param|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModHoe.java|228|243|unlocalizedName|param|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModHoe.java|187|197|ItemModHoe|method|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModHoe.java|198|210|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|items\ItemModHoe.java|221|227|String|class|java.lang.String
+      @|items\ItemModHoe.java|255|263|material|param|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModHoe.java|273|291|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModHoe.java|292|307|unlocalizedName|param|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModHoe.java|317|332|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModHoe.java|337|353|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModHoe.java|354|363|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModHoe.java|364|370|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModHoe.java|372|387|unlocalizedName|param|items.ItemModHoe|ItemModHoe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+   Method End: ItemModHoe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+Class End  : items.ItemModHoe
+endProcessing "items\ItemModHoe.java"
+
+startProcessing "items\ItemModPickaxe.java" md5: 35d07e770f180e9be1197c3ccf683587
+Cache Hit!
+@|items\ItemModPickaxe.java|8|13|items|package|items|(file)
+Class Start: items.ItemModPickaxe
+   @|items\ItemModPickaxe.java|154|168|ItemModPickaxe|class|items.ItemModPickaxe
+   @|items\ItemModPickaxe.java|177|188|ItemPickaxe|class|net.minecraft.item.ItemPickaxe
+   Method Start: ItemModPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModPickaxe.java|228|236|material|param|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModPickaxe.java|245|260|unlocalizedName|param|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModPickaxe.java|200|214|ItemModPickaxe|method|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModPickaxe.java|215|227|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|items\ItemModPickaxe.java|238|244|String|class|java.lang.String
+      @|items\ItemModPickaxe.java|272|280|material|param|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModPickaxe.java|290|308|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModPickaxe.java|309|324|unlocalizedName|param|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModPickaxe.java|334|349|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModPickaxe.java|354|370|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModPickaxe.java|371|380|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModPickaxe.java|381|387|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModPickaxe.java|389|404|unlocalizedName|param|items.ItemModPickaxe|ItemModPickaxe|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+   Method End: ItemModPickaxe(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+Class End  : items.ItemModPickaxe
+endProcessing "items\ItemModPickaxe.java"
+
+startProcessing "items\ItemModShovel.java" md5: 57ee0681ca6b762ccc93d483769fbd21
+Cache Hit!
+@|items\ItemModShovel.java|8|13|items|package|items|(file)
+Class Start: items.ItemModShovel
+   @|items\ItemModShovel.java|152|165|ItemModShovel|class|items.ItemModShovel
+   @|items\ItemModShovel.java|174|183|ItemSpade|class|net.minecraft.item.ItemSpade
+   Method Start: ItemModShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModShovel.java|222|230|material|param|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModShovel.java|239|254|unlocalizedName|param|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModShovel.java|195|208|ItemModShovel|method|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModShovel.java|209|221|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|items\ItemModShovel.java|232|238|String|class|java.lang.String
+      @|items\ItemModShovel.java|266|274|material|param|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModShovel.java|284|302|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModShovel.java|303|318|unlocalizedName|param|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModShovel.java|328|343|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModShovel.java|348|364|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModShovel.java|365|374|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModShovel.java|375|381|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModShovel.java|383|398|unlocalizedName|param|items.ItemModShovel|ItemModShovel|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+   Method End: ItemModShovel(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+Class End  : items.ItemModShovel
+endProcessing "items\ItemModShovel.java"
+
+startProcessing "items\ItemModSword.java" md5: 1c60184b04b2b30a71077f2658745a15
+Cache Hit!
+@|items\ItemModSword.java|8|13|items|package|items|(file)
+Class Start: items.ItemModSword
+   @|items\ItemModSword.java|152|164|ItemModSword|class|items.ItemModSword
+   @|items\ItemModSword.java|173|182|ItemSword|class|net.minecraft.item.ItemSword
+   Method Start: ItemModSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModSword.java|221|229|material|param|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModSword.java|238|253|unlocalizedName|param|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModSword.java|195|207|ItemModSword|method|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+      @|items\ItemModSword.java|208|220|ToolMaterial|class|net.minecraft.item.Item.ToolMaterial
+      @|items\ItemModSword.java|231|237|String|class|java.lang.String
+      @|items\ItemModSword.java|265|273|material|param|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|material|0
+      @|items\ItemModSword.java|283|301|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemModSword.java|302|317|unlocalizedName|param|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+      @|items\ItemModSword.java|327|342|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry|setRegistryName|(Lnet/minecraft/util/ResourceLocation;)Ljava/lang/Object;
+      @|items\ItemModSword.java|347|363|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|items\ItemModSword.java|364|373|Reference|class|com.Cmonster03.OreMod.Reference
+      @|items\ItemModSword.java|374|380|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|items\ItemModSword.java|382|397|unlocalizedName|param|items.ItemModSword|ItemModSword|(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V|unlocalizedName|1
+   Method End: ItemModSword(Lnet/minecraft/item/Item$ToolMaterial;Ljava/lang/String;)V
+Class End  : items.ItemModSword
+endProcessing "items\ItemModSword.java"
+
+startProcessing "items\ItemOpal.java" md5: 30a8404a4ae954cc149666acf5520294
+Cache Hit!
+@|items\ItemOpal.java|8|13|items|package|items|(file)
+Class Start: items.ItemOpal
+   @|items\ItemOpal.java|270|278|ItemOpal|class|items.ItemOpal
+   @|items\ItemOpal.java|287|291|Item|class|net.minecraft.item.Item
+   Method Start: ItemOpal()V
+      @|items\ItemOpal.java|303|311|ItemOpal|method|items.ItemOpal|ItemOpal|()V
+      @|items\ItemOpal.java|318|336|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|items\ItemOpal.java|337|358|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemOpal.java|359|363|OPAL|field|com.Cmonster03.OreMod.Reference.OreModItems|OPAL
+      @|items\ItemOpal.java|364|382|getUnlocalizedName|method|com.Cmonster03.OreMod.Reference.OreModItems|getUnlocalizedName|()Ljava/lang/String;
+      @|items\ItemOpal.java|389|404|setRegistryName|method|net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/fml/common/registry/IForgeRegistryEntry;
+      @|items\ItemOpal.java|405|426|Reference.OreModItems|class|com.Cmonster03.OreMod.Reference.OreModItems
+      @|items\ItemOpal.java|427|431|OPAL|field|com.Cmonster03.OreMod.Reference.OreModItems|OPAL
+      @|items\ItemOpal.java|432|447|getRegistryName|method|com.Cmonster03.OreMod.Reference.OreModItems|getRegistryName|()Ljava/lang/String;
+      @|items\ItemOpal.java|454|468|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|items\ItemOpal.java|469|480|TabElements|class|com.Cmonster03.OreMod.creativetabs.TabElements
+      @|items\ItemOpal.java|481|493|tab_elements|field|com.Cmonster03.OreMod.creativetabs.TabElements|tab_elements
+   Method End: ItemOpal()V
+   Method Start: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V
+      @|items\ItemOpal.java|550|555|stack|param|items.ItemOpal|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V|stack|0
+      @|items\ItemOpal.java|570|576|player|param|items.ItemOpal|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V|player|1
+      @|items\ItemOpal.java|583|587|list|param|items.ItemOpal|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V|list|2
+      @|items\ItemOpal.java|597|601|par4|param|items.ItemOpal|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V|par4|3
+      @|items\ItemOpal.java|503|511|Override|class|java.lang.Override
+      @|items\ItemOpal.java|525|539|addInformation|method|net.minecraft.item.Item|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V
+      @|items\ItemOpal.java|540|549|ItemStack|class|net.minecraft.item.ItemStack
+      @|items\ItemOpal.java|557|569|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|items\ItemOpal.java|578|582|List|class|java.util.List
+      @|items\ItemOpal.java|607|611|list|param|items.ItemOpal|addInformation|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V|list|2
+      @|items\ItemOpal.java|612|615|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: addInformation(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/List;Z)V
+Class End  : items.ItemOpal
+endProcessing "items\ItemOpal.java"
+
+startProcessing "util\Utils.java" md5: 3ede5a0906577b215506d4b294024288
+Cache Hit!
+@|util\Utils.java|8|12|util|package|util|(file)
+Class Start: util.Utils
+   @|util\Utils.java|154|159|Utils|class|util.Utils
+   @|util\Utils.java|180|186|Logger|class|org.apache.logging.log4j.Logger
+   @|util\Utils.java|180|186|Logger|class|org.apache.logging.log4j.Logger
+   @|util\Utils.java|187|193|logger|field|util.Utils|logger|
+   Method Start: getLogger()Lorg/apache/logging/log4j/Logger;
+      @|util\Utils.java|212|218|Logger|class|org.apache.logging.log4j.Logger
+      @|util\Utils.java|219|228|getLogger|method|util.Utils|getLogger|()Lorg/apache/logging/log4j/Logger;
+      @|util\Utils.java|238|244|logger|field|util.Utils|logger
+      @|util\Utils.java|259|265|logger|field|util.Utils|logger
+      @|util\Utils.java|268|278|LogManager|class|org.apache.logging.log4j.LogManager
+      @|util\Utils.java|279|297|getFormatterLogger|method|org.apache.logging.log4j.LogManager|getFormatterLogger|(Ljava/lang/String;)Lorg/apache/logging/log4j/Logger;
+      @|util\Utils.java|298|307|Reference|class|com.Cmonster03.OreMod.Reference
+      @|util\Utils.java|308|314|MOD_ID|field|com.Cmonster03.OreMod.Reference|MOD_ID
+      @|util\Utils.java|330|336|logger|field|util.Utils|logger
+   Method End: getLogger()Lorg/apache/logging/log4j/Logger;
+Class End  : util.Utils
+endProcessing "util\Utils.java"
+
